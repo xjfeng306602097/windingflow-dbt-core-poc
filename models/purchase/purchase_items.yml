@@ -14,5 +14,5 @@ models:
         description: This is tenant id
       - name: sku
         description: This is sku
-      - name: purchase_amount_usd_total
+      - name: purchase_amount_usd
         description: This is purchase amount in usd
