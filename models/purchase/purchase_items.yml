@@ -12,3 +12,7 @@ models:
         description: This is a unique identifier for an purchase
       - name: tenant_id
         description: This is tenant id
+      - name: sku
+        description: This is sku
+      - name: purchase_amount_usd_total
+        description: This is purchase amount in usd
