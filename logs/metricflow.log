@@ -1,0 +1,2873 @@
+2024-01-18 18:20:27,657 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 20, 27, 656625),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_vt2zaw76',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:30,327 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 20, 30, 326998),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_vt2zaw76',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 2.6703853607177734,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,335 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 334857),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_59wuzd6a',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,336 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 336595),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_59wuzd6a',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0017685890197753906,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,337 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 337333),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_9o2b1uis',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'list'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,337 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 337573),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_9o2b1uis',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'list',
+                              'runtime': 0.00024056434631347656,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,338 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 338087),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_8smb47xi',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'metrics'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,341 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 18:20:44,341 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 18:20:44,342 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 18:20:44,342 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 342510),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_24zz2873',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'list_metrics'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,343 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 343038),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_24zz2873',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'list_metrics',
+                              'runtime': 0.0005278587341308594,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:20:44,422 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 20, 44, 421840),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_8smb47xi',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'metrics',
+                              'runtime': 0.08374691009521484,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:34,766 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 21, 34, 765702),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_ifvtefni',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:34,767 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 21, 34, 767149),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_ifvtefni',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0014607906341552734,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:34,768 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 21, 34, 767916),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_kf2tlusv',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'list'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:34,768 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 21, 34, 768158),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_kf2tlusv',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'list',
+                              'runtime': 0.00024271011352539062,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:45,848 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 21, 45, 848384),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_xc2t06c9',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:45,850 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 21, 45, 850053),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_xc2t06c9',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0016827583312988281,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:45,851 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 21, 45, 850859),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_xsctwdhc',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'list'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:21:45,851 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 21, 45, 851231),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_xsctwdhc',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'list',
+                              'runtime': 0.0003712177276611328,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:22:35,093 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 22, 35, 92576),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_39n8zuuh',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:22:35,094 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 22, 35, 94132),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_39n8zuuh',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0015740394592285156,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:22:35,095 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 22, 35, 94947),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_itzmowzm',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'list'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:22:35,095 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 22, 35, 95220),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_itzmowzm',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'list',
+                              'runtime': 0.0002734661102294922,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:22:35,095 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 22, 35, 95757),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_r5bidoz1',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'dimensions'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:22:35,099 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 18:22:35,100 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 18:22:35,102 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 18:22:35,180 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 22, 35, 180591),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_r5bidoz1',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'dimensions',
+                              'runtime': 0.08482670783996582,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:23:40,441 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 23, 40, 441367),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_b8a8uwoo',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:23:40,443 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 23, 40, 443077),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_b8a8uwoo',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.001725912094116211,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:23:40,444 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 23, 40, 443969),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_x6e6l4ta',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:23:40,447 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 18:23:40,447 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 18:23:40,448 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 18:23:40,448 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 18, 23, 40, 448622),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_hua2dwo1',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:23:40,449 INFO metricflow_engine.py:375 [MainThread] - Starting query request:
+  {'class': 'MetricFlowQueryRequest',
+   'request_id': {'class': 'MetricFlowRequestId', 'mf_rid': 'fzift4aa'},
+   'saved_query_name': None,
+   'metric_names': ['purchase_total_metrics'],
+   'metrics': None,
+   'group_by_names': ['purchase_id__create_at'],
+   'group_by': None,
+   'limit': None,
+   'time_constraint_start': None,
+   'time_constraint_end': None,
+   'where_constraint': None,
+   'order_by_names': None,
+   'order_by': None,
+   'min_max_only': False,
+   'output_table': None,
+   'sql_optimization_level': <SqlQueryOptimizationLevel.O4: 'O4'>,
+   'query_type': <MetricFlowQueryType.METRIC: 'metric'>}
+2024-01-18 18:23:40,449 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryParser._parse_and_validate_query()
+2024-01-18 18:23:40,451 INFO query_parser.py:426 [MainThread] - Converted group-by-item input:
+  Input: 'purchase_id__create_at'
+  Resolver Input: ResolverInputForGroupByItem(
+    input_obj='purchase_id__create_at',
+    input_obj_naming_scheme=DunderNamingScheme(id()=0x7fbeb339b670),
+    spec_pattern=EntityLinkPattern(
+      parameter_set=EntityLinkPatternParameterSet(
+        fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+        element_name='create_at',
+        entity_links=(EntityReference(element_name='purchase_id'),),
+      ),
+    ),
+  )
+2024-01-18 18:23:40,454 INFO query_parser.py:478 [MainThread] - Resolver input for query is:
+  ResolverInputForQuery(
+    metric_inputs=(
+      ResolverInputForMetric(
+        input_obj='purchase_total_metrics',
+        naming_scheme=MetricNamingScheme(id()=0x7fbeb339b610),
+        spec_pattern=MetricSpecPattern(
+          metric_reference=MetricReference(element_name='purchase_total_metrics'),
+        ),
+      ),
+    ),
+    group_by_item_inputs=(
+      ResolverInputForGroupByItem(
+        input_obj='purchase_id__create_at',
+        input_obj_naming_scheme=DunderNamingScheme(id()=0x7fbeb339b670),
+        spec_pattern=EntityLinkPattern(
+          parameter_set=EntityLinkPatternParameterSet(
+            fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+            element_name='create_at',
+            entity_links=(EntityReference(element_name='purchase_id'),),
+          ),
+        ),
+      ),
+    ),
+    filter_input=ResolverInputForQueryLevelWhereFilterIntersection(
+      where_filter_intersection=PydanticWhereFilterIntersection(),
+    ),
+    limit_input=ResolverInputForLimit(),
+    min_max_only=ResolverInputForMinMaxOnly(min_max_only=False),
+  )
+2024-01-18 18:23:40,454 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryResolver._resolve_query()
+2024-01-18 18:23:40,468 INFO query_resolver.py:194 [MainThread] - Resolution DAG is:
+<GroupByItemResolutionDag>
+    <QueryGroupByItemResolutionNode>
+        <!-- description = Output the group-by items for query. -->
+        <!-- node_id = qr_1 -->
+        <!-- metrics_in_query = ['purchase_total_metrics'] -->
+        <MetricGroupByItemResolutionNode>
+            <!-- description = Output group-by-items available for this metric. -->
+            <!-- node_id = mtr_0 -->
+            <!-- metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            <MeasureGroupByItemSourceNode>
+                <!-- description = Output group-by-items available for this measure. -->
+                <!-- node_id = msr_0 -->
+                <!-- measure_reference = MeasureReference(element_name='purchase_total') -->
+                <!-- child_metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            </MeasureGroupByItemSourceNode>
+        </MetricGroupByItemResolutionNode>
+    </QueryGroupByItemResolutionNode>
+</GroupByItemResolutionDag>
+2024-01-18 18:23:40,468 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 18:23:40,471 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 18:23:40,477 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 18:23:40,480 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 18:23:40,482 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 18:23:40,483 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 18:23:40,484 INFO group_by_item_resolver.py:95 [MainThread] - Spec pattern:
+  EntityLinkPattern(
+    parameter_set=EntityLinkPatternParameterSet(
+      fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+      element_name='create_at',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+    ),
+  )
+was resolved to:
+  (
+    TimeDimensionSpec(
+      element_name='create_at',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+      time_granularity=DAY,
+    ),
+  )
+2024-01-18 18:23:40,484 INFO runtime.py:31 [MainThread] - Starting WhereFilterSpecResolver._resolve_lookup()
+2024-01-18 18:23:40,484 INFO runtime.py:37 [MainThread] - Finished WhereFilterSpecResolver._resolve_lookup() in 0.0s
+2024-01-18 18:23:40,484 INFO query_resolver.py:450 [MainThread] - Group-by-items were resolved to:
+(
+  TimeDimensionSpec(
+    element_name='create_at',
+    entity_links=(EntityReference(element_name='purchase_id'),),
+    time_granularity=DAY,
+  ),
+)
+2024-01-18 18:23:40,485 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryResolver._resolve_query() in 0.0s
+2024-01-18 18:23:40,486 INFO query_parser.py:482 [MainThread] - Query resolution is:
+  MetricFlowQueryResolution(
+    query_spec=MetricFlowQuerySpec(
+      metric_specs=(MetricSpec(element_name='purchase_total_metrics'),),
+      time_dimension_specs=(
+        TimeDimensionSpec(
+          element_name='create_at',
+          entity_links=(EntityReference(element_name='purchase_id'),),
+          time_granularity=DAY,
+        ),
+      ),
+      filter_intersection=PydanticWhereFilterIntersection(),
+      filter_spec_resolution_lookup=FilterSpecResolutionLookUp(),
+      min_max_only=False,
+    ),
+    resolution_dag=<metricflow.query.group_by_item.resolution_dag.dag.GroupByItemResolutionDag object at 0x7fbeb334e640>,
+    filter_spec_lookup=FilterSpecResolutionLookUp(),
+  )
+2024-01-18 18:23:40,486 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryParser._parse_and_validate_query() in 0.0s
+2024-01-18 18:23:40,487 INFO metricflow_engine.py:442 [MainThread] - Query spec is:
+{'class': 'MetricFlowQuerySpec',
+ 'metric_specs': ({'class': 'MetricSpec',
+                   'element_name': 'purchase_total_metrics',
+                   'filter_specs': (),
+                   'alias': None,
+                   'offset_window': None,
+                   'offset_to_grain': None},),
+ 'dimension_specs': (),
+ 'entity_specs': (),
+ 'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                           'element_name': 'create_at',
+                           'entity_links': ({'class': 'EntityReference',
+                                             'element_name': 'purchase_id'},),
+                           'time_granularity': TimeGranularity.DAY,
+                           'date_part': None,
+                           'aggregation_state': None},),
+ 'order_by_specs': (),
+ 'time_range_constraint': None,
+ 'limit': None,
+ 'filter_intersection': {'class': 'PydanticWhereFilterIntersection',
+                         'where_filters': []},
+ 'filter_spec_resolution_lookup': {'class': 'FilterSpecResolutionLookUp',
+                                   'spec_resolutions': (),
+                                   'non_parsable_resolutions': ()},
+ 'min_max_only': False}
+2024-01-18 18:23:40,487 INFO runtime.py:31 [MainThread] - Starting DataflowPlanBuilder._build_plan()
+2024-01-18 18:23:40,487 INFO dataflow_plan_builder.py:585 [MainThread] - Generating compute metrics node for MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None)
+2024-01-18 18:23:40,487 INFO dataflow_plan_builder.py:427 [MainThread] - For MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None), needed measure is:
+metric_input_measure_spec:
+    {'class': 'MetricInputMeasureSpec',
+     'measure_spec': {'class': 'MeasureSpec',
+                      'element_name': 'purchase_total',
+                      'non_additive_dimension_spec': None,
+                      'fill_nulls_with': None},
+     'fill_nulls_with': None,
+     'offset_window': None,
+     'offset_to_grain': None,
+     'culmination_description': None,
+     'filter_specs': (),
+     'alias': None,
+     'before_aggregation_time_spine_join_description': None,
+     'after_aggregation_time_spine_join_description': None}
+2024-01-18 18:23:40,487 INFO dataflow_plan_builder.py:1167 [MainThread] - Building aggregated measure: MeasureSpec(element_name='purchase_total', non_additive_dimension_spec=None, fill_nulls_with=None) with input measure filters:
+()
+and  filters:
+()
+2024-01-18 18:23:40,488 INFO dataflow_plan_builder.py:1252 [MainThread] - Looking for a recipe to get:
+measure_specs:
+    [{'class': 'MeasureSpec',
+      'element_name': 'purchase_total',
+      'non_additive_dimension_spec': None,
+      'fill_nulls_with': None}]
+required_linkable_set:
+    {'class': 'LinkableSpecSet',
+     'dimension_specs': (),
+     'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'create_at',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'entity_specs': ()}
+2024-01-18 18:23:40,489 INFO dataflow_plan_builder.py:833 [MainThread] - There are 1 potential source nodes
+2024-01-18 18:23:40,489 INFO dataflow_plan_builder.py:835 [MainThread] - Starting search with 1 source nodes
+2024-01-18 18:23:40,489 INFO node_processor.py:330 [MainThread] - Relevant names are: {'purchase_id', 'create_at'}
+2024-01-18 18:23:40,489 INFO dataflow_plan_builder.py:854 [MainThread] - After removing unnecessary nodes, there are 1 nodes available for joins
+2024-01-18 18:23:40,489 INFO dataflow_plan_builder.py:865 [MainThread] - Processing nodes took: 0.00s
+2024-01-18 18:23:40,501 INFO node_evaluator.py:384 [MainThread] - Looping over nodes that can be joined to get the required linkable specs
+2024-01-18 18:23:40,501 INFO node_evaluator.py:422 [MainThread] - Done evaluating possible joins
+2024-01-18 18:23:40,501 INFO dataflow_plan_builder.py:897 [MainThread] - Evaluation of MetricTimeDimensionTransformNode(node_id=sma_0) took 0.00s
+2024-01-18 18:23:40,509 INFO dataflow_plan_builder.py:912 [MainThread] - Found candidate with node ID 'sma_0' with 0 joins required.
+2024-01-18 18:23:40,509 INFO dataflow_plan_builder.py:919 [MainThread] - Not evaluating other nodes since we found one that doesn't require joins
+2024-01-18 18:23:40,509 INFO dataflow_plan_builder.py:922 [MainThread] - Found 1 candidate source nodes.
+2024-01-18 18:23:40,516 INFO dataflow_plan_builder.py:930 [MainThread] - Lowest cost plan is:
+node:
+    <MetricTimeDimensionTransformNode>
+        <!-- description = Metric Time Dimension 'create_at' -->
+        <!-- node_id = sma_0 -->
+        <!-- aggregation_time_dimension = create_at -->
+        <ReadSqlSourceNode>
+            <!-- description =                                                                                   -->
+            <!--   Read From SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+            <!-- node_id = rss_0 -->
+            <!-- data_set =                                                                            -->
+            <!--   SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+        </ReadSqlSourceNode>
+    </MetricTimeDimensionTransformNode>
+evaluation:
+    {'class': 'LinkableInstanceSatisfiabilityEvaluation',
+     'local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'create_at',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'joinable_linkable_specs': (),
+     'join_recipes': (),
+     'unjoinable_linkable_specs': ()}
+joins:
+    0
+2024-01-18 18:23:40,516 INFO dataflow_plan_builder.py:1264 [MainThread] - With 1 source nodes, finding a recipe took 0.03s
+2024-01-18 18:23:40,516 INFO dataflow_plan_builder.py:1269 [MainThread] - Using recipe:
+measure_recipe:
+    {'class': 'DataflowRecipe',
+     'source_node': MetricTimeDimensionTransformNode(node_id=sma_0),
+     'required_local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                                        'element_name': 'create_at',
+                                        'entity_links': ({'class': 'EntityReference',
+                                                          'element_name': 'purchase_id'},),
+                                        'time_granularity': TimeGranularity.DAY,
+                                        'date_part': None,
+                                        'aggregation_state': None},),
+     'join_linkable_instances_recipes': ()}
+2024-01-18 18:23:40,517 INFO dataflow_plan_builder.py:232 [MainThread] - Applying SourceScanOptimizer
+2024-01-18 18:23:40,571 INFO runtime.py:37 [MainThread] - Finished DataflowPlanBuilder._build_plan() in 0.1s
+2024-01-18 18:23:40,572 INFO dataflow_to_execution.py:93 [MainThread] - Generating SQL query plan from wrd_1 -> cm_1
+2024-01-18 18:23:40,573 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlColumnPrunerOptimizer
+2024-01-18 18:23:40,573 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlRewritingSubQueryReducer
+2024-01-18 18:23:40,574 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlTableAliasSimplifier
+2024-01-18 18:23:40,599 INFO metricflow_engine.py:384 [MainThread] - Sequentially running tasks in:
+<ExecutionPlan>
+    <SelectSqlQueryToDataFrameTask>
+        <!-- description = Run a query and write the results to a data frame -->
+        <!-- node_id = rsq_0 -->
+        <!-- sql_query =                                                                         -->
+        <!--   -- Read Elements From Semantic Model 'purchase_items'                             -->
+        <!--   -- Metric Time Dimension 'create_at'                                              -->
+        <!--   -- Pass Only Elements:                                                            -->
+        <!--   --   ['purchase_total', 'purchase_id__create_at__day']                            -->
+        <!--   -- Aggregate Measures                                                             -->
+        <!--   -- Compute Metrics via Expressions                                                -->
+        <!--   SELECT                                                                            -->
+        <!--     DATE_TRUNC('day', create_at) AS purchase_id__create_at__day                     -->
+        <!--     , SUM(purchase_amount_usd) AS purchase_total_metrics                            -->
+        <!--   FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0  -->
+        <!--   GROUP BY                                                                          -->
+        <!--     DATE_TRUNC('day', create_at)                                                    -->
+    </SelectSqlQueryToDataFrameTask>
+</ExecutionPlan>
+2024-01-18 18:23:40,599 INFO executor.py:61 [MainThread] - Started task ID: rsq_0
+2024-01-18 18:23:40,599 INFO adapter_backed_client.py:152 [MainThread] - Running query:
+
+  -- Read Elements From Semantic Model 'purchase_items'
+  -- Metric Time Dimension 'create_at'
+  -- Pass Only Elements:
+  --   ['purchase_total', 'purchase_id__create_at__day']
+  -- Aggregate Measures
+  -- Compute Metrics via Expressions
+  SELECT
+    DATE_TRUNC('day', create_at) AS purchase_id__create_at__day
+    , SUM(purchase_amount_usd) AS purchase_total_metrics
+  FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0
+  GROUP BY
+    DATE_TRUNC('day', create_at)
+  -- MF_REQUEST_METADATA: {"tag_dict": {"MF_REQUEST_ID": "mf_rid__vtn7ea3k"}}
+2024-01-18 18:23:43,395 INFO executor.py:73 [MainThread] - Task ID: rsq_0 exited unexpectedly
+2024-01-18 18:23:43,401 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 23, 43, 401218),
+                              'level_name': 'EXCEPTION',
+                              'invocation_id': 'call_hua2dwo1',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'query',
+                              'runtime': 2.952590227127075,
+                              'exception_trace': 'Traceback (most recent call '
+                                                 'last):\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", '
+                                                 'line 76, in exception_handler\n'
+                                                 '    yield\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", '
+                                                 'line 80, in add_query\n'
+                                                 '    cursor.execute(sql, '
+                                                 'bindings)\n'
+                                                 'psycopg2.errors.UndefinedColumn: '
+                                                 'column "create_at" does not '
+                                                 'exist\n'
+                                                 "LINE 8:   DATE_TRUNC('day', "
+                                                 'create_at) AS '
+                                                 'purchase_id__create_at__da...\n'
+                                                 '                            ^\n'
+                                                 'HINT:  Perhaps you meant to '
+                                                 'reference the column '
+                                                 '"purchase_items_src_0.createat".\n'
+                                                 '\n'
+                                                 '\n'
+                                                 'The above exception was the '
+                                                 'direct cause of the following '
+                                                 'exception:\n'
+                                                 '\n'
+                                                 'Traceback (most recent call '
+                                                 'last):\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/telemetry/reporter.py", '
+                                                 'line 150, in wrapped\n'
+                                                 '    return func(*args, '
+                                                 '**kwargs)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/engine/metricflow_engine.py", '
+                                                 'line 385, in query\n'
+                                                 '    execution_results = '
+                                                 'self._executor.execute_plan(execution_plan)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/execution/executor.py", '
+                                                 'line 79, in execute_plan\n'
+                                                 '    self._execute_dfs(leaf_node, '
+                                                 'results)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/execution/executor.py", '
+                                                 'line 63, in _execute_dfs\n'
+                                                 '    result = '
+                                                 'current_task.execute()\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/execution/execution_plan.py", '
+                                                 'line 128, in execute\n'
+                                                 '    df = '
+                                                 'self._sql_client.query(\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/cli/dbt_connectors/adapter_backed_client.py", '
+                                                 'line 155, in query\n'
+                                                 '    result = '
+                                                 'self._adapter.execute(sql=statement, '
+                                                 'auto_begin=True, fetch=True)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", '
+                                                 'line 310, in execute\n'
+                                                 '    return '
+                                                 'self.connections.execute(sql=sql, '
+                                                 'auto_begin=auto_begin, '
+                                                 'fetch=fetch, limit=limit)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", '
+                                                 'line 138, in execute\n'
+                                                 '    _, cursor = '
+                                                 'self.add_query(sql, auto_begin)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", '
+                                                 'line 90, in add_query\n'
+                                                 '    return connection, cursor\n'
+                                                 '  File '
+                                                 '"/usr/lib/python3.8/contextlib.py", '
+                                                 'line 131, in __exit__\n'
+                                                 '    self.gen.throw(type, value, '
+                                                 'traceback)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", '
+                                                 'line 87, in exception_handler\n'
+                                                 '    raise '
+                                                 'dbt.exceptions.DbtDatabaseError(str(e).strip()) '
+                                                 'from e\n'
+                                                 'dbt.exceptions.DbtDatabaseError: '
+                                                 'Database Error\n'
+                                                 '  column "create_at" does not '
+                                                 'exist\n'
+                                                 "  LINE 8:   DATE_TRUNC('day', "
+                                                 'create_at) AS '
+                                                 'purchase_id__create_at__da...\n'
+                                                 '                              ^\n'
+                                                 '  HINT:  Perhaps you meant to '
+                                                 'reference the column '
+                                                 '"purchase_items_src_0.createat".\n'},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:23:43,403 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 18, 23, 43, 402812),
+                              'level_name': 'EXCEPTION',
+                              'invocation_id': 'call_x6e6l4ta',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'query',
+                              'runtime': 2.9588401317596436,
+                              'exception_trace': 'Traceback (most recent call '
+                                                 'last):\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", '
+                                                 'line 76, in exception_handler\n'
+                                                 '    yield\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", '
+                                                 'line 80, in add_query\n'
+                                                 '    cursor.execute(sql, '
+                                                 'bindings)\n'
+                                                 'psycopg2.errors.UndefinedColumn: '
+                                                 'column "create_at" does not '
+                                                 'exist\n'
+                                                 "LINE 8:   DATE_TRUNC('day', "
+                                                 'create_at) AS '
+                                                 'purchase_id__create_at__da...\n'
+                                                 '                            ^\n'
+                                                 'HINT:  Perhaps you meant to '
+                                                 'reference the column '
+                                                 '"purchase_items_src_0.createat".\n'
+                                                 '\n'
+                                                 '\n'
+                                                 'The above exception was the '
+                                                 'direct cause of the following '
+                                                 'exception:\n'
+                                                 '\n'
+                                                 'Traceback (most recent call '
+                                                 'last):\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/telemetry/reporter.py", '
+                                                 'line 150, in wrapped\n'
+                                                 '    return func(*args, '
+                                                 '**kwargs)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/cli/main.py", '
+                                                 'line 295, in query\n'
+                                                 '    query_result = '
+                                                 'cfg.mf.query(mf_request=mf_request)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/telemetry/reporter.py", '
+                                                 'line 150, in wrapped\n'
+                                                 '    return func(*args, '
+                                                 '**kwargs)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/engine/metricflow_engine.py", '
+                                                 'line 385, in query\n'
+                                                 '    execution_results = '
+                                                 'self._executor.execute_plan(execution_plan)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/execution/executor.py", '
+                                                 'line 79, in execute_plan\n'
+                                                 '    self._execute_dfs(leaf_node, '
+                                                 'results)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/execution/executor.py", '
+                                                 'line 63, in _execute_dfs\n'
+                                                 '    result = '
+                                                 'current_task.execute()\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/execution/execution_plan.py", '
+                                                 'line 128, in execute\n'
+                                                 '    df = '
+                                                 'self._sql_client.query(\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/metricflow/cli/dbt_connectors/adapter_backed_client.py", '
+                                                 'line 155, in query\n'
+                                                 '    result = '
+                                                 'self._adapter.execute(sql=statement, '
+                                                 'auto_begin=True, fetch=True)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", '
+                                                 'line 310, in execute\n'
+                                                 '    return '
+                                                 'self.connections.execute(sql=sql, '
+                                                 'auto_begin=auto_begin, '
+                                                 'fetch=fetch, limit=limit)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", '
+                                                 'line 138, in execute\n'
+                                                 '    _, cursor = '
+                                                 'self.add_query(sql, auto_begin)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", '
+                                                 'line 90, in add_query\n'
+                                                 '    return connection, cursor\n'
+                                                 '  File '
+                                                 '"/usr/lib/python3.8/contextlib.py", '
+                                                 'line 131, in __exit__\n'
+                                                 '    self.gen.throw(type, value, '
+                                                 'traceback)\n'
+                                                 '  File '
+                                                 '"/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", '
+                                                 'line 87, in exception_handler\n'
+                                                 '    raise '
+                                                 'dbt.exceptions.DbtDatabaseError(str(e).strip()) '
+                                                 'from e\n'
+                                                 'dbt.exceptions.DbtDatabaseError: '
+                                                 'Database Error\n'
+                                                 '  column "create_at" does not '
+                                                 'exist\n'
+                                                 "  LINE 8:   DATE_TRUNC('day', "
+                                                 'create_at) AS '
+                                                 'purchase_id__create_at__da...\n'
+                                                 '                              ^\n'
+                                                 '  HINT:  Perhaps you meant to '
+                                                 'reference the column '
+                                                 '"purchase_items_src_0.createat".\n'},),
+     'payload_schema': 'v1.0'}
+2024-01-18 18:23:43,403 ERROR utils.py:116 [MainThread] - Got an exception in the exception handler.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 76, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 80, in add_query
+    cursor.execute(sql, bindings)
+psycopg2.errors.UndefinedColumn: column "create_at" does not exist
+LINE 8:   DATE_TRUNC('day', create_at) AS purchase_id__create_at__da...
+                            ^
+HINT:  Perhaps you meant to reference the column "purchase_items_src_0.createat".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/cli/utils.py", line 113, in wrapper
+    func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/telemetry/reporter.py", line 150, in wrapped
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/cli/main.py", line 295, in query
+    query_result = cfg.mf.query(mf_request=mf_request)
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/telemetry/reporter.py", line 150, in wrapped
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/engine/metricflow_engine.py", line 385, in query
+    execution_results = self._executor.execute_plan(execution_plan)
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/execution/executor.py", line 79, in execute_plan
+    self._execute_dfs(leaf_node, results)
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/execution/executor.py", line 63, in _execute_dfs
+    result = current_task.execute()
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/execution/execution_plan.py", line 128, in execute
+    df = self._sql_client.query(
+  File "/usr/local/lib/python3.8/dist-packages/metricflow/cli/dbt_connectors/adapter_backed_client.py", line 155, in query
+    result = self._adapter.execute(sql=statement, auto_begin=True, fetch=True)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 310, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 138, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 90, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 87, in exception_handler
+    raise dbt.exceptions.DbtDatabaseError(str(e).strip()) from e
+dbt.exceptions.DbtDatabaseError: Database Error
+  column "create_at" does not exist
+  LINE 8:   DATE_TRUNC('day', create_at) AS purchase_id__create_at__da...
+                              ^
+  HINT:  Perhaps you meant to reference the column "purchase_items_src_0.createat".
+2024-01-18 19:11:09,061 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 19, 11, 9, 60563),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_u5n41eht',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:09,062 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 19, 11, 9, 61985),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_u5n41eht',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.001439809799194336,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:09,063 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 19, 11, 9, 62927),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_bf7xtvv7',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:09,066 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 19:11:09,066 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 19:11:09,068 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 19:11:09,070 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 19, 11, 9, 70227),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_2n5cxk6k',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:09,070 INFO metricflow_engine.py:375 [MainThread] - Starting query request:
+  {'class': 'MetricFlowQueryRequest',
+   'request_id': {'class': 'MetricFlowRequestId', 'mf_rid': 'wumo0e59'},
+   'saved_query_name': None,
+   'metric_names': ['purchase_total_metrics'],
+   'metrics': None,
+   'group_by_names': ['purchase_id__create_at'],
+   'group_by': None,
+   'limit': None,
+   'time_constraint_start': None,
+   'time_constraint_end': None,
+   'where_constraint': None,
+   'order_by_names': None,
+   'order_by': None,
+   'min_max_only': False,
+   'output_table': None,
+   'sql_optimization_level': <SqlQueryOptimizationLevel.O4: 'O4'>,
+   'query_type': <MetricFlowQueryType.METRIC: 'metric'>}
+2024-01-18 19:11:09,070 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryParser._parse_and_validate_query()
+2024-01-18 19:11:09,071 INFO query_parser.py:426 [MainThread] - Converted group-by-item input:
+  Input: 'purchase_id__create_at'
+  Resolver Input: ResolverInputForGroupByItem(
+    input_obj='purchase_id__create_at',
+    input_obj_naming_scheme=DunderNamingScheme(id()=0x7f805336e6d0),
+    spec_pattern=EntityLinkPattern(
+      parameter_set=EntityLinkPatternParameterSet(
+        fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+        element_name='create_at',
+        entity_links=(EntityReference(element_name='purchase_id'),),
+      ),
+    ),
+  )
+2024-01-18 19:11:09,074 INFO query_parser.py:478 [MainThread] - Resolver input for query is:
+  ResolverInputForQuery(
+    metric_inputs=(
+      ResolverInputForMetric(
+        input_obj='purchase_total_metrics',
+        naming_scheme=MetricNamingScheme(id()=0x7f805336e670),
+        spec_pattern=MetricSpecPattern(
+          metric_reference=MetricReference(element_name='purchase_total_metrics'),
+        ),
+      ),
+    ),
+    group_by_item_inputs=(
+      ResolverInputForGroupByItem(
+        input_obj='purchase_id__create_at',
+        input_obj_naming_scheme=DunderNamingScheme(id()=0x7f805336e6d0),
+        spec_pattern=EntityLinkPattern(
+          parameter_set=EntityLinkPatternParameterSet(
+            fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+            element_name='create_at',
+            entity_links=(EntityReference(element_name='purchase_id'),),
+          ),
+        ),
+      ),
+    ),
+    filter_input=ResolverInputForQueryLevelWhereFilterIntersection(
+      where_filter_intersection=PydanticWhereFilterIntersection(),
+    ),
+    limit_input=ResolverInputForLimit(),
+    min_max_only=ResolverInputForMinMaxOnly(min_max_only=False),
+  )
+2024-01-18 19:11:09,074 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryResolver._resolve_query()
+2024-01-18 19:11:09,085 INFO query_resolver.py:194 [MainThread] - Resolution DAG is:
+<GroupByItemResolutionDag>
+    <QueryGroupByItemResolutionNode>
+        <!-- description = Output the group-by items for query. -->
+        <!-- node_id = qr_1 -->
+        <!-- metrics_in_query = ['purchase_total_metrics'] -->
+        <MetricGroupByItemResolutionNode>
+            <!-- description = Output group-by-items available for this metric. -->
+            <!-- node_id = mtr_0 -->
+            <!-- metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            <MeasureGroupByItemSourceNode>
+                <!-- description = Output group-by-items available for this measure. -->
+                <!-- node_id = msr_0 -->
+                <!-- measure_reference = MeasureReference(element_name='purchase_total') -->
+                <!-- child_metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            </MeasureGroupByItemSourceNode>
+        </MetricGroupByItemResolutionNode>
+    </QueryGroupByItemResolutionNode>
+</GroupByItemResolutionDag>
+2024-01-18 19:11:09,085 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 19:11:09,090 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 19:11:09,096 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 19:11:09,098 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 19:11:09,099 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 19:11:09,101 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 19:11:09,102 INFO group_by_item_resolver.py:95 [MainThread] - Spec pattern:
+  EntityLinkPattern(
+    parameter_set=EntityLinkPatternParameterSet(
+      fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+      element_name='create_at',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+    ),
+  )
+was resolved to:
+  (
+    TimeDimensionSpec(
+      element_name='create_at',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+      time_granularity=DAY,
+    ),
+  )
+2024-01-18 19:11:09,102 INFO runtime.py:31 [MainThread] - Starting WhereFilterSpecResolver._resolve_lookup()
+2024-01-18 19:11:09,102 INFO runtime.py:37 [MainThread] - Finished WhereFilterSpecResolver._resolve_lookup() in 0.0s
+2024-01-18 19:11:09,102 INFO query_resolver.py:450 [MainThread] - Group-by-items were resolved to:
+(
+  TimeDimensionSpec(
+    element_name='create_at',
+    entity_links=(EntityReference(element_name='purchase_id'),),
+    time_granularity=DAY,
+  ),
+)
+2024-01-18 19:11:09,102 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryResolver._resolve_query() in 0.0s
+2024-01-18 19:11:09,103 INFO query_parser.py:482 [MainThread] - Query resolution is:
+  MetricFlowQueryResolution(
+    query_spec=MetricFlowQuerySpec(
+      metric_specs=(MetricSpec(element_name='purchase_total_metrics'),),
+      time_dimension_specs=(
+        TimeDimensionSpec(
+          element_name='create_at',
+          entity_links=(EntityReference(element_name='purchase_id'),),
+          time_granularity=DAY,
+        ),
+      ),
+      filter_intersection=PydanticWhereFilterIntersection(),
+      filter_spec_resolution_lookup=FilterSpecResolutionLookUp(),
+      min_max_only=False,
+    ),
+    resolution_dag=<metricflow.query.group_by_item.resolution_dag.dag.GroupByItemResolutionDag object at 0x7f80533226a0>,
+    filter_spec_lookup=FilterSpecResolutionLookUp(),
+  )
+2024-01-18 19:11:09,103 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryParser._parse_and_validate_query() in 0.0s
+2024-01-18 19:11:09,104 INFO metricflow_engine.py:442 [MainThread] - Query spec is:
+{'class': 'MetricFlowQuerySpec',
+ 'metric_specs': ({'class': 'MetricSpec',
+                   'element_name': 'purchase_total_metrics',
+                   'filter_specs': (),
+                   'alias': None,
+                   'offset_window': None,
+                   'offset_to_grain': None},),
+ 'dimension_specs': (),
+ 'entity_specs': (),
+ 'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                           'element_name': 'create_at',
+                           'entity_links': ({'class': 'EntityReference',
+                                             'element_name': 'purchase_id'},),
+                           'time_granularity': TimeGranularity.DAY,
+                           'date_part': None,
+                           'aggregation_state': None},),
+ 'order_by_specs': (),
+ 'time_range_constraint': None,
+ 'limit': None,
+ 'filter_intersection': {'class': 'PydanticWhereFilterIntersection',
+                         'where_filters': []},
+ 'filter_spec_resolution_lookup': {'class': 'FilterSpecResolutionLookUp',
+                                   'spec_resolutions': (),
+                                   'non_parsable_resolutions': ()},
+ 'min_max_only': False}
+2024-01-18 19:11:09,104 INFO runtime.py:31 [MainThread] - Starting DataflowPlanBuilder._build_plan()
+2024-01-18 19:11:09,104 INFO dataflow_plan_builder.py:585 [MainThread] - Generating compute metrics node for MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None)
+2024-01-18 19:11:09,104 INFO dataflow_plan_builder.py:427 [MainThread] - For MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None), needed measure is:
+metric_input_measure_spec:
+    {'class': 'MetricInputMeasureSpec',
+     'measure_spec': {'class': 'MeasureSpec',
+                      'element_name': 'purchase_total',
+                      'non_additive_dimension_spec': None,
+                      'fill_nulls_with': None},
+     'fill_nulls_with': None,
+     'offset_window': None,
+     'offset_to_grain': None,
+     'culmination_description': None,
+     'filter_specs': (),
+     'alias': None,
+     'before_aggregation_time_spine_join_description': None,
+     'after_aggregation_time_spine_join_description': None}
+2024-01-18 19:11:09,104 INFO dataflow_plan_builder.py:1167 [MainThread] - Building aggregated measure: MeasureSpec(element_name='purchase_total', non_additive_dimension_spec=None, fill_nulls_with=None) with input measure filters:
+()
+and  filters:
+()
+2024-01-18 19:11:09,105 INFO dataflow_plan_builder.py:1252 [MainThread] - Looking for a recipe to get:
+measure_specs:
+    [{'class': 'MeasureSpec',
+      'element_name': 'purchase_total',
+      'non_additive_dimension_spec': None,
+      'fill_nulls_with': None}]
+required_linkable_set:
+    {'class': 'LinkableSpecSet',
+     'dimension_specs': (),
+     'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'create_at',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'entity_specs': ()}
+2024-01-18 19:11:09,106 INFO dataflow_plan_builder.py:833 [MainThread] - There are 1 potential source nodes
+2024-01-18 19:11:09,106 INFO dataflow_plan_builder.py:835 [MainThread] - Starting search with 1 source nodes
+2024-01-18 19:11:09,106 INFO node_processor.py:330 [MainThread] - Relevant names are: {'create_at', 'purchase_id'}
+2024-01-18 19:11:09,106 INFO dataflow_plan_builder.py:854 [MainThread] - After removing unnecessary nodes, there are 1 nodes available for joins
+2024-01-18 19:11:09,106 INFO dataflow_plan_builder.py:865 [MainThread] - Processing nodes took: 0.00s
+2024-01-18 19:11:09,116 INFO node_evaluator.py:384 [MainThread] - Looping over nodes that can be joined to get the required linkable specs
+2024-01-18 19:11:09,116 INFO node_evaluator.py:422 [MainThread] - Done evaluating possible joins
+2024-01-18 19:11:09,116 INFO dataflow_plan_builder.py:897 [MainThread] - Evaluation of MetricTimeDimensionTransformNode(node_id=sma_0) took 0.00s
+2024-01-18 19:11:09,123 INFO dataflow_plan_builder.py:912 [MainThread] - Found candidate with node ID 'sma_0' with 0 joins required.
+2024-01-18 19:11:09,123 INFO dataflow_plan_builder.py:919 [MainThread] - Not evaluating other nodes since we found one that doesn't require joins
+2024-01-18 19:11:09,123 INFO dataflow_plan_builder.py:922 [MainThread] - Found 1 candidate source nodes.
+2024-01-18 19:11:09,129 INFO dataflow_plan_builder.py:930 [MainThread] - Lowest cost plan is:
+node:
+    <MetricTimeDimensionTransformNode>
+        <!-- description = Metric Time Dimension 'create_at' -->
+        <!-- node_id = sma_0 -->
+        <!-- aggregation_time_dimension = create_at -->
+        <ReadSqlSourceNode>
+            <!-- description =                                                                                   -->
+            <!--   Read From SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+            <!-- node_id = rss_0 -->
+            <!-- data_set =                                                                            -->
+            <!--   SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+        </ReadSqlSourceNode>
+    </MetricTimeDimensionTransformNode>
+evaluation:
+    {'class': 'LinkableInstanceSatisfiabilityEvaluation',
+     'local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'create_at',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'joinable_linkable_specs': (),
+     'join_recipes': (),
+     'unjoinable_linkable_specs': ()}
+joins:
+    0
+2024-01-18 19:11:09,129 INFO dataflow_plan_builder.py:1264 [MainThread] - With 1 source nodes, finding a recipe took 0.02s
+2024-01-18 19:11:09,130 INFO dataflow_plan_builder.py:1269 [MainThread] - Using recipe:
+measure_recipe:
+    {'class': 'DataflowRecipe',
+     'source_node': MetricTimeDimensionTransformNode(node_id=sma_0),
+     'required_local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                                        'element_name': 'create_at',
+                                        'entity_links': ({'class': 'EntityReference',
+                                                          'element_name': 'purchase_id'},),
+                                        'time_granularity': TimeGranularity.DAY,
+                                        'date_part': None,
+                                        'aggregation_state': None},),
+     'join_linkable_instances_recipes': ()}
+2024-01-18 19:11:09,130 INFO dataflow_plan_builder.py:232 [MainThread] - Applying SourceScanOptimizer
+2024-01-18 19:11:09,177 INFO runtime.py:37 [MainThread] - Finished DataflowPlanBuilder._build_plan() in 0.1s
+2024-01-18 19:11:09,177 INFO dataflow_to_execution.py:93 [MainThread] - Generating SQL query plan from wrd_1 -> cm_1
+2024-01-18 19:11:09,179 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlColumnPrunerOptimizer
+2024-01-18 19:11:09,179 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlRewritingSubQueryReducer
+2024-01-18 19:11:09,179 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlTableAliasSimplifier
+2024-01-18 19:11:09,204 INFO metricflow_engine.py:384 [MainThread] - Sequentially running tasks in:
+<ExecutionPlan>
+    <SelectSqlQueryToDataFrameTask>
+        <!-- description = Run a query and write the results to a data frame -->
+        <!-- node_id = rsq_0 -->
+        <!-- sql_query =                                                                         -->
+        <!--   -- Read Elements From Semantic Model 'purchase_items'                             -->
+        <!--   -- Metric Time Dimension 'create_at'                                              -->
+        <!--   -- Pass Only Elements:                                                            -->
+        <!--   --   ['purchase_total', 'purchase_id__create_at__day']                            -->
+        <!--   -- Aggregate Measures                                                             -->
+        <!--   -- Compute Metrics via Expressions                                                -->
+        <!--   SELECT                                                                            -->
+        <!--     DATE_TRUNC('day', create_at) AS purchase_id__create_at__day                     -->
+        <!--     , SUM(purchase_amount_usd) AS purchase_total_metrics                            -->
+        <!--   FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0  -->
+        <!--   GROUP BY                                                                          -->
+        <!--     DATE_TRUNC('day', create_at)                                                    -->
+    </SelectSqlQueryToDataFrameTask>
+</ExecutionPlan>
+2024-01-18 19:11:09,204 INFO executor.py:61 [MainThread] - Started task ID: rsq_0
+2024-01-18 19:11:09,204 INFO adapter_backed_client.py:152 [MainThread] - Running query:
+
+  -- Read Elements From Semantic Model 'purchase_items'
+  -- Metric Time Dimension 'create_at'
+  -- Pass Only Elements:
+  --   ['purchase_total', 'purchase_id__create_at__day']
+  -- Aggregate Measures
+  -- Compute Metrics via Expressions
+  SELECT
+    DATE_TRUNC('day', create_at) AS purchase_id__create_at__day
+    , SUM(purchase_amount_usd) AS purchase_total_metrics
+  FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0
+  GROUP BY
+    DATE_TRUNC('day', create_at)
+  -- MF_REQUEST_METADATA: {"tag_dict": {"MF_REQUEST_ID": "mf_rid__drnu7ve5"}}
+2024-01-18 19:11:12,899 INFO adapter_backed_client.py:156 [MainThread] - Query returned from dbt Adapter with response SELECT 12
+2024-01-18 19:11:13,255 INFO adapter_backed_client.py:161 [MainThread] - Finished running the query in 4.05s with 12 row(s) returned
+2024-01-18 19:11:13,256 INFO executor.py:71 [MainThread] - Finished task ID: rsq_0 successfully in 4.05s
+2024-01-18 19:11:13,256 INFO metricflow_engine.py:386 [MainThread] - Finished running tasks in execution plan
+2024-01-18 19:11:13,256 INFO metricflow_engine.py:395 [MainThread] - Finished query request: MetricFlowRequestId(mf_rid='wumo0e59')
+2024-01-18 19:11:13,256 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 19, 11, 13, 256184),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_2n5cxk6k',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'query',
+                              'runtime': 4.1859564781188965,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:13,334 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 19, 11, 13, 334401),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_bf7xtvv7',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'query',
+                              'runtime': 4.271470546722412,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:30,706 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 19, 11, 30, 705917),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_t6iborul',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:30,707 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 19, 11, 30, 707286),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_t6iborul',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0013816356658935547,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:30,708 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 19, 11, 30, 708173),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_v9atn9z5',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:30,711 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 19:11:30,711 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 19:11:30,712 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 19:11:30,712 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 19, 11, 30, 712725),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_3dfzkwh0',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:30,713 INFO metricflow_engine.py:375 [MainThread] - Starting query request:
+  {'class': 'MetricFlowQueryRequest',
+   'request_id': {'class': 'MetricFlowRequestId', 'mf_rid': 'llbf89fu'},
+   'saved_query_name': None,
+   'metric_names': ['purchase_total_metrics'],
+   'metrics': None,
+   'group_by_names': ['purchase_id__sku'],
+   'group_by': None,
+   'limit': None,
+   'time_constraint_start': None,
+   'time_constraint_end': None,
+   'where_constraint': None,
+   'order_by_names': None,
+   'order_by': None,
+   'min_max_only': False,
+   'output_table': None,
+   'sql_optimization_level': <SqlQueryOptimizationLevel.O4: 'O4'>,
+   'query_type': <MetricFlowQueryType.METRIC: 'metric'>}
+2024-01-18 19:11:30,713 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryParser._parse_and_validate_query()
+2024-01-18 19:11:30,714 INFO query_parser.py:426 [MainThread] - Converted group-by-item input:
+  Input: 'purchase_id__sku'
+  Resolver Input: ResolverInputForGroupByItem(
+    input_obj='purchase_id__sku',
+    input_obj_naming_scheme=DunderNamingScheme(id()=0x7fc961dbb5e0),
+    spec_pattern=EntityLinkPattern(
+      parameter_set=EntityLinkPatternParameterSet(
+        fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+        element_name='sku',
+        entity_links=(EntityReference(element_name='purchase_id'),),
+      ),
+    ),
+  )
+2024-01-18 19:11:30,717 INFO query_parser.py:478 [MainThread] - Resolver input for query is:
+  ResolverInputForQuery(
+    metric_inputs=(
+      ResolverInputForMetric(
+        input_obj='purchase_total_metrics',
+        naming_scheme=MetricNamingScheme(id()=0x7fc961dbb580),
+        spec_pattern=MetricSpecPattern(
+          metric_reference=MetricReference(element_name='purchase_total_metrics'),
+        ),
+      ),
+    ),
+    group_by_item_inputs=(
+      ResolverInputForGroupByItem(
+        input_obj='purchase_id__sku',
+        input_obj_naming_scheme=DunderNamingScheme(id()=0x7fc961dbb5e0),
+        spec_pattern=EntityLinkPattern(
+          parameter_set=EntityLinkPatternParameterSet(
+            fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+            element_name='sku',
+            entity_links=(EntityReference(element_name='purchase_id'),),
+          ),
+        ),
+      ),
+    ),
+    filter_input=ResolverInputForQueryLevelWhereFilterIntersection(
+      where_filter_intersection=PydanticWhereFilterIntersection(),
+    ),
+    limit_input=ResolverInputForLimit(),
+    min_max_only=ResolverInputForMinMaxOnly(min_max_only=False),
+  )
+2024-01-18 19:11:30,717 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryResolver._resolve_query()
+2024-01-18 19:11:30,727 INFO query_resolver.py:194 [MainThread] - Resolution DAG is:
+<GroupByItemResolutionDag>
+    <QueryGroupByItemResolutionNode>
+        <!-- description = Output the group-by items for query. -->
+        <!-- node_id = qr_1 -->
+        <!-- metrics_in_query = ['purchase_total_metrics'] -->
+        <MetricGroupByItemResolutionNode>
+            <!-- description = Output group-by-items available for this metric. -->
+            <!-- node_id = mtr_0 -->
+            <!-- metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            <MeasureGroupByItemSourceNode>
+                <!-- description = Output group-by-items available for this measure. -->
+                <!-- node_id = msr_0 -->
+                <!-- measure_reference = MeasureReference(element_name='purchase_total') -->
+                <!-- child_metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            </MeasureGroupByItemSourceNode>
+        </MetricGroupByItemResolutionNode>
+    </QueryGroupByItemResolutionNode>
+</GroupByItemResolutionDag>
+2024-01-18 19:11:30,727 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 19:11:30,732 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 19:11:30,737 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 19:11:30,740 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 19:11:30,741 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 19:11:30,741 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 19:11:30,742 INFO group_by_item_resolver.py:95 [MainThread] - Spec pattern:
+  EntityLinkPattern(
+    parameter_set=EntityLinkPatternParameterSet(
+      fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+      element_name='sku',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+    ),
+  )
+was resolved to:
+  (DimensionSpec(element_name='sku', entity_links=(EntityReference(element_name='purchase_id'),)),)
+2024-01-18 19:11:30,742 INFO runtime.py:31 [MainThread] - Starting WhereFilterSpecResolver._resolve_lookup()
+2024-01-18 19:11:30,742 INFO runtime.py:37 [MainThread] - Finished WhereFilterSpecResolver._resolve_lookup() in 0.0s
+2024-01-18 19:11:30,742 INFO query_resolver.py:450 [MainThread] - Group-by-items were resolved to:
+(DimensionSpec(element_name='sku', entity_links=(EntityReference(element_name='purchase_id'),)),)
+2024-01-18 19:11:30,742 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryResolver._resolve_query() in 0.0s
+2024-01-18 19:11:30,744 INFO query_parser.py:482 [MainThread] - Query resolution is:
+  MetricFlowQueryResolution(
+    query_spec=MetricFlowQuerySpec(
+      metric_specs=(MetricSpec(element_name='purchase_total_metrics'),),
+      dimension_specs=(
+        DimensionSpec(
+          element_name='sku',
+          entity_links=(EntityReference(element_name='purchase_id'),),
+        ),
+      ),
+      filter_intersection=PydanticWhereFilterIntersection(),
+      filter_spec_resolution_lookup=FilterSpecResolutionLookUp(),
+      min_max_only=False,
+    ),
+    resolution_dag=<metricflow.query.group_by_item.resolution_dag.dag.GroupByItemResolutionDag object at 0x7fc961d705b0>,
+    filter_spec_lookup=FilterSpecResolutionLookUp(),
+  )
+2024-01-18 19:11:30,744 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryParser._parse_and_validate_query() in 0.0s
+2024-01-18 19:11:30,745 INFO metricflow_engine.py:442 [MainThread] - Query spec is:
+{'class': 'MetricFlowQuerySpec',
+ 'metric_specs': ({'class': 'MetricSpec',
+                   'element_name': 'purchase_total_metrics',
+                   'filter_specs': (),
+                   'alias': None,
+                   'offset_window': None,
+                   'offset_to_grain': None},),
+ 'dimension_specs': ({'class': 'DimensionSpec',
+                      'element_name': 'sku',
+                      'entity_links': ({'class': 'EntityReference',
+                                        'element_name': 'purchase_id'},)},),
+ 'entity_specs': (),
+ 'time_dimension_specs': (),
+ 'order_by_specs': (),
+ 'time_range_constraint': None,
+ 'limit': None,
+ 'filter_intersection': {'class': 'PydanticWhereFilterIntersection',
+                         'where_filters': []},
+ 'filter_spec_resolution_lookup': {'class': 'FilterSpecResolutionLookUp',
+                                   'spec_resolutions': (),
+                                   'non_parsable_resolutions': ()},
+ 'min_max_only': False}
+2024-01-18 19:11:30,745 INFO runtime.py:31 [MainThread] - Starting DataflowPlanBuilder._build_plan()
+2024-01-18 19:11:30,745 INFO dataflow_plan_builder.py:585 [MainThread] - Generating compute metrics node for MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None)
+2024-01-18 19:11:30,745 INFO dataflow_plan_builder.py:427 [MainThread] - For MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None), needed measure is:
+metric_input_measure_spec:
+    {'class': 'MetricInputMeasureSpec',
+     'measure_spec': {'class': 'MeasureSpec',
+                      'element_name': 'purchase_total',
+                      'non_additive_dimension_spec': None,
+                      'fill_nulls_with': None},
+     'fill_nulls_with': None,
+     'offset_window': None,
+     'offset_to_grain': None,
+     'culmination_description': None,
+     'filter_specs': (),
+     'alias': None,
+     'before_aggregation_time_spine_join_description': None,
+     'after_aggregation_time_spine_join_description': None}
+2024-01-18 19:11:30,745 INFO dataflow_plan_builder.py:1167 [MainThread] - Building aggregated measure: MeasureSpec(element_name='purchase_total', non_additive_dimension_spec=None, fill_nulls_with=None) with input measure filters:
+()
+and  filters:
+()
+2024-01-18 19:11:30,746 INFO dataflow_plan_builder.py:1252 [MainThread] - Looking for a recipe to get:
+measure_specs:
+    [{'class': 'MeasureSpec',
+      'element_name': 'purchase_total',
+      'non_additive_dimension_spec': None,
+      'fill_nulls_with': None}]
+required_linkable_set:
+    {'class': 'LinkableSpecSet',
+     'dimension_specs': ({'class': 'DimensionSpec',
+                          'element_name': 'sku',
+                          'entity_links': ({'class': 'EntityReference',
+                                            'element_name': 'purchase_id'},)},),
+     'time_dimension_specs': (),
+     'entity_specs': ()}
+2024-01-18 19:11:30,747 INFO dataflow_plan_builder.py:833 [MainThread] - There are 1 potential source nodes
+2024-01-18 19:11:30,747 INFO dataflow_plan_builder.py:835 [MainThread] - Starting search with 1 source nodes
+2024-01-18 19:11:30,748 INFO node_processor.py:330 [MainThread] - Relevant names are: {'purchase_id', 'sku'}
+2024-01-18 19:11:30,748 INFO dataflow_plan_builder.py:854 [MainThread] - After removing unnecessary nodes, there are 1 nodes available for joins
+2024-01-18 19:11:30,748 INFO dataflow_plan_builder.py:865 [MainThread] - Processing nodes took: 0.00s
+2024-01-18 19:11:30,756 INFO node_evaluator.py:384 [MainThread] - Looping over nodes that can be joined to get the required linkable specs
+2024-01-18 19:11:30,756 INFO node_evaluator.py:422 [MainThread] - Done evaluating possible joins
+2024-01-18 19:11:30,756 INFO dataflow_plan_builder.py:897 [MainThread] - Evaluation of MetricTimeDimensionTransformNode(node_id=sma_0) took 0.00s
+2024-01-18 19:11:30,763 INFO dataflow_plan_builder.py:912 [MainThread] - Found candidate with node ID 'sma_0' with 0 joins required.
+2024-01-18 19:11:30,763 INFO dataflow_plan_builder.py:919 [MainThread] - Not evaluating other nodes since we found one that doesn't require joins
+2024-01-18 19:11:30,763 INFO dataflow_plan_builder.py:922 [MainThread] - Found 1 candidate source nodes.
+2024-01-18 19:11:30,769 INFO dataflow_plan_builder.py:930 [MainThread] - Lowest cost plan is:
+node:
+    <MetricTimeDimensionTransformNode>
+        <!-- description = Metric Time Dimension 'create_at' -->
+        <!-- node_id = sma_0 -->
+        <!-- aggregation_time_dimension = create_at -->
+        <ReadSqlSourceNode>
+            <!-- description =                                                                                   -->
+            <!--   Read From SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+            <!-- node_id = rss_0 -->
+            <!-- data_set =                                                                            -->
+            <!--   SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+        </ReadSqlSourceNode>
+    </MetricTimeDimensionTransformNode>
+evaluation:
+    {'class': 'LinkableInstanceSatisfiabilityEvaluation',
+     'local_linkable_specs': ({'class': 'DimensionSpec',
+                               'element_name': 'sku',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},)},),
+     'joinable_linkable_specs': (),
+     'join_recipes': (),
+     'unjoinable_linkable_specs': ()}
+joins:
+    0
+2024-01-18 19:11:30,770 INFO dataflow_plan_builder.py:1264 [MainThread] - With 1 source nodes, finding a recipe took 0.02s
+2024-01-18 19:11:30,770 INFO dataflow_plan_builder.py:1269 [MainThread] - Using recipe:
+measure_recipe:
+    {'class': 'DataflowRecipe',
+     'source_node': MetricTimeDimensionTransformNode(node_id=sma_0),
+     'required_local_linkable_specs': ({'class': 'DimensionSpec',
+                                        'element_name': 'sku',
+                                        'entity_links': ({'class': 'EntityReference',
+                                                          'element_name': 'purchase_id'},)},),
+     'join_linkable_instances_recipes': ()}
+2024-01-18 19:11:30,770 INFO dataflow_plan_builder.py:232 [MainThread] - Applying SourceScanOptimizer
+2024-01-18 19:11:30,816 INFO runtime.py:37 [MainThread] - Finished DataflowPlanBuilder._build_plan() in 0.1s
+2024-01-18 19:11:30,816 INFO dataflow_to_execution.py:93 [MainThread] - Generating SQL query plan from wrd_1 -> cm_1
+2024-01-18 19:11:30,818 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlColumnPrunerOptimizer
+2024-01-18 19:11:30,818 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlRewritingSubQueryReducer
+2024-01-18 19:11:30,818 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlTableAliasSimplifier
+2024-01-18 19:11:30,844 INFO metricflow_engine.py:384 [MainThread] - Sequentially running tasks in:
+<ExecutionPlan>
+    <SelectSqlQueryToDataFrameTask>
+        <!-- description = Run a query and write the results to a data frame -->
+        <!-- node_id = rsq_0 -->
+        <!-- sql_query =                                                                         -->
+        <!--   -- Read Elements From Semantic Model 'purchase_items'                             -->
+        <!--   -- Metric Time Dimension 'create_at'                                              -->
+        <!--   -- Pass Only Elements:                                                            -->
+        <!--   --   ['purchase_total', 'purchase_id__sku']                                       -->
+        <!--   -- Aggregate Measures                                                             -->
+        <!--   -- Compute Metrics via Expressions                                                -->
+        <!--   SELECT                                                                            -->
+        <!--     sku AS purchase_id__sku                                                         -->
+        <!--     , SUM(purchase_amount_usd) AS purchase_total_metrics                            -->
+        <!--   FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0  -->
+        <!--   GROUP BY                                                                          -->
+        <!--     sku                                                                             -->
+    </SelectSqlQueryToDataFrameTask>
+</ExecutionPlan>
+2024-01-18 19:11:30,844 INFO executor.py:61 [MainThread] - Started task ID: rsq_0
+2024-01-18 19:11:30,844 INFO adapter_backed_client.py:152 [MainThread] - Running query:
+
+  -- Read Elements From Semantic Model 'purchase_items'
+  -- Metric Time Dimension 'create_at'
+  -- Pass Only Elements:
+  --   ['purchase_total', 'purchase_id__sku']
+  -- Aggregate Measures
+  -- Compute Metrics via Expressions
+  SELECT
+    sku AS purchase_id__sku
+    , SUM(purchase_amount_usd) AS purchase_total_metrics
+  FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0
+  GROUP BY
+    sku
+  -- MF_REQUEST_METADATA: {"tag_dict": {"MF_REQUEST_ID": "mf_rid__81l9et2b"}}
+2024-01-18 19:11:34,710 INFO adapter_backed_client.py:156 [MainThread] - Query returned from dbt Adapter with response SELECT 3
+2024-01-18 19:11:35,059 INFO adapter_backed_client.py:161 [MainThread] - Finished running the query in 4.21s with 3 row(s) returned
+2024-01-18 19:11:35,059 INFO executor.py:71 [MainThread] - Finished task ID: rsq_0 successfully in 4.21s
+2024-01-18 19:11:35,059 INFO metricflow_engine.py:386 [MainThread] - Finished running tasks in execution plan
+2024-01-18 19:11:35,059 INFO metricflow_engine.py:395 [MainThread] - Finished query request: MetricFlowRequestId(mf_rid='llbf89fu')
+2024-01-18 19:11:35,059 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 19, 11, 35, 59571),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_3dfzkwh0',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'query',
+                              'runtime': 4.346843004226685,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 19:11:35,139 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 19, 11, 35, 139270),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_v9atn9z5',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'query',
+                              'runtime': 4.4310925006866455,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:19,675 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 20, 16, 19, 674948),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_ndlmz22d',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:20,140 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 20, 16, 20, 140102),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_ndlmz22d',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.4651615619659424,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:20,141 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 20, 16, 20, 141057),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_f8er561d',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'list'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:20,141 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 20, 16, 20, 141364),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_f8er561d',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'list',
+                              'runtime': 0.0003070831298828125,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:20,142 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 20, 16, 20, 141938),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_dfm8d7ou',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'dimensions'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:20,144 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 20:16:20,145 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 20:16:20,146 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 20:16:20,226 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 20, 16, 20, 225861),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_dfm8d7ou',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'dimensions',
+                              'runtime': 0.08391857147216797,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:43,172 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 20, 16, 43, 172223),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_nl7hwwfm',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:43,173 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 20, 16, 43, 173609),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_nl7hwwfm',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0014009475708007812,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:43,174 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 20, 16, 43, 174528),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_r0e8o5td',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:43,178 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 20:16:43,178 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 20:16:43,179 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 20:16:43,180 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 20, 16, 43, 179803),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_avx8urft',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:43,180 INFO metricflow_engine.py:375 [MainThread] - Starting query request:
+  {'class': 'MetricFlowQueryRequest',
+   'request_id': {'class': 'MetricFlowRequestId', 'mf_rid': '04v00b8h'},
+   'saved_query_name': None,
+   'metric_names': ['purchase_total_metrics'],
+   'metrics': None,
+   'group_by_names': ['metric_time'],
+   'group_by': None,
+   'limit': None,
+   'time_constraint_start': None,
+   'time_constraint_end': None,
+   'where_constraint': None,
+   'order_by_names': None,
+   'order_by': None,
+   'min_max_only': False,
+   'output_table': None,
+   'sql_optimization_level': <SqlQueryOptimizationLevel.O4: 'O4'>,
+   'query_type': <MetricFlowQueryType.METRIC: 'metric'>}
+2024-01-18 20:16:43,180 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryParser._parse_and_validate_query()
+2024-01-18 20:16:43,183 INFO query_parser.py:426 [MainThread] - Converted group-by-item input:
+  Input: 'metric_time'
+  Resolver Input: ResolverInputForGroupByItem(
+    input_obj='metric_time',
+    input_obj_naming_scheme=DunderNamingScheme(id()=0x7f760641a6a0),
+    spec_pattern=EntityLinkPattern(
+      parameter_set=EntityLinkPatternParameterSet(
+        fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+        element_name='metric_time',
+      ),
+    ),
+  )
+2024-01-18 20:16:43,186 INFO query_parser.py:478 [MainThread] - Resolver input for query is:
+  ResolverInputForQuery(
+    metric_inputs=(
+      ResolverInputForMetric(
+        input_obj='purchase_total_metrics',
+        naming_scheme=MetricNamingScheme(id()=0x7f760641a640),
+        spec_pattern=MetricSpecPattern(
+          metric_reference=MetricReference(element_name='purchase_total_metrics'),
+        ),
+      ),
+    ),
+    group_by_item_inputs=(
+      ResolverInputForGroupByItem(
+        input_obj='metric_time',
+        input_obj_naming_scheme=DunderNamingScheme(id()=0x7f760641a6a0),
+        spec_pattern=EntityLinkPattern(
+          parameter_set=EntityLinkPatternParameterSet(
+            fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+            element_name='metric_time',
+          ),
+        ),
+      ),
+    ),
+    filter_input=ResolverInputForQueryLevelWhereFilterIntersection(
+      where_filter_intersection=PydanticWhereFilterIntersection(),
+    ),
+    limit_input=ResolverInputForLimit(),
+    min_max_only=ResolverInputForMinMaxOnly(min_max_only=False),
+  )
+2024-01-18 20:16:43,186 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryResolver._resolve_query()
+2024-01-18 20:16:43,196 INFO query_resolver.py:194 [MainThread] - Resolution DAG is:
+<GroupByItemResolutionDag>
+    <QueryGroupByItemResolutionNode>
+        <!-- description = Output the group-by items for query. -->
+        <!-- node_id = qr_1 -->
+        <!-- metrics_in_query = ['purchase_total_metrics'] -->
+        <MetricGroupByItemResolutionNode>
+            <!-- description = Output group-by-items available for this metric. -->
+            <!-- node_id = mtr_0 -->
+            <!-- metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            <MeasureGroupByItemSourceNode>
+                <!-- description = Output group-by-items available for this measure. -->
+                <!-- node_id = msr_0 -->
+                <!-- measure_reference = MeasureReference(element_name='purchase_total') -->
+                <!-- child_metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            </MeasureGroupByItemSourceNode>
+        </MetricGroupByItemResolutionNode>
+    </QueryGroupByItemResolutionNode>
+</GroupByItemResolutionDag>
+2024-01-18 20:16:43,196 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 20:16:43,201 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 20:16:43,207 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 20:16:43,210 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 20:16:43,211 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 20:16:43,211 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 20:16:43,212 INFO group_by_item_resolver.py:95 [MainThread] - Spec pattern:
+  EntityLinkPattern(
+    parameter_set=EntityLinkPatternParameterSet(
+      fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+      element_name='metric_time',
+    ),
+  )
+was resolved to:
+  (TimeDimensionSpec(element_name='metric_time', time_granularity=DAY),)
+2024-01-18 20:16:43,212 INFO runtime.py:31 [MainThread] - Starting WhereFilterSpecResolver._resolve_lookup()
+2024-01-18 20:16:43,212 INFO runtime.py:37 [MainThread] - Finished WhereFilterSpecResolver._resolve_lookup() in 0.0s
+2024-01-18 20:16:43,212 INFO query_resolver.py:450 [MainThread] - Group-by-items were resolved to:
+(TimeDimensionSpec(element_name='metric_time', time_granularity=DAY),)
+2024-01-18 20:16:43,212 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryResolver._resolve_query() in 0.0s
+2024-01-18 20:16:43,213 INFO query_parser.py:482 [MainThread] - Query resolution is:
+  MetricFlowQueryResolution(
+    query_spec=MetricFlowQuerySpec(
+      metric_specs=(MetricSpec(element_name='purchase_total_metrics'),),
+      time_dimension_specs=(TimeDimensionSpec(element_name='metric_time', time_granularity=DAY),),
+      filter_intersection=PydanticWhereFilterIntersection(),
+      filter_spec_resolution_lookup=FilterSpecResolutionLookUp(),
+      min_max_only=False,
+    ),
+    resolution_dag=<metricflow.query.group_by_item.resolution_dag.dag.GroupByItemResolutionDag object at 0x7f76063ce040>,
+    filter_spec_lookup=FilterSpecResolutionLookUp(),
+  )
+2024-01-18 20:16:43,214 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryParser._parse_and_validate_query() in 0.0s
+2024-01-18 20:16:43,214 INFO metricflow_engine.py:442 [MainThread] - Query spec is:
+{'class': 'MetricFlowQuerySpec',
+ 'metric_specs': ({'class': 'MetricSpec',
+                   'element_name': 'purchase_total_metrics',
+                   'filter_specs': (),
+                   'alias': None,
+                   'offset_window': None,
+                   'offset_to_grain': None},),
+ 'dimension_specs': (),
+ 'entity_specs': (),
+ 'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                           'element_name': 'metric_time',
+                           'entity_links': (),
+                           'time_granularity': TimeGranularity.DAY,
+                           'date_part': None,
+                           'aggregation_state': None},),
+ 'order_by_specs': (),
+ 'time_range_constraint': None,
+ 'limit': None,
+ 'filter_intersection': {'class': 'PydanticWhereFilterIntersection',
+                         'where_filters': []},
+ 'filter_spec_resolution_lookup': {'class': 'FilterSpecResolutionLookUp',
+                                   'spec_resolutions': (),
+                                   'non_parsable_resolutions': ()},
+ 'min_max_only': False}
+2024-01-18 20:16:43,214 INFO runtime.py:31 [MainThread] - Starting DataflowPlanBuilder._build_plan()
+2024-01-18 20:16:43,214 INFO dataflow_plan_builder.py:585 [MainThread] - Generating compute metrics node for MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None)
+2024-01-18 20:16:43,214 INFO dataflow_plan_builder.py:427 [MainThread] - For MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None), needed measure is:
+metric_input_measure_spec:
+    {'class': 'MetricInputMeasureSpec',
+     'measure_spec': {'class': 'MeasureSpec',
+                      'element_name': 'purchase_total',
+                      'non_additive_dimension_spec': None,
+                      'fill_nulls_with': None},
+     'fill_nulls_with': None,
+     'offset_window': None,
+     'offset_to_grain': None,
+     'culmination_description': None,
+     'filter_specs': (),
+     'alias': None,
+     'before_aggregation_time_spine_join_description': None,
+     'after_aggregation_time_spine_join_description': None}
+2024-01-18 20:16:43,215 INFO dataflow_plan_builder.py:1167 [MainThread] - Building aggregated measure: MeasureSpec(element_name='purchase_total', non_additive_dimension_spec=None, fill_nulls_with=None) with input measure filters:
+()
+and  filters:
+()
+2024-01-18 20:16:43,215 INFO dataflow_plan_builder.py:1252 [MainThread] - Looking for a recipe to get:
+measure_specs:
+    [{'class': 'MeasureSpec',
+      'element_name': 'purchase_total',
+      'non_additive_dimension_spec': None,
+      'fill_nulls_with': None}]
+required_linkable_set:
+    {'class': 'LinkableSpecSet',
+     'dimension_specs': (),
+     'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'metric_time',
+                               'entity_links': (),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'entity_specs': ()}
+2024-01-18 20:16:43,216 INFO dataflow_plan_builder.py:833 [MainThread] - There are 1 potential source nodes
+2024-01-18 20:16:43,216 INFO dataflow_plan_builder.py:835 [MainThread] - Starting search with 1 source nodes
+2024-01-18 20:16:43,216 INFO node_processor.py:330 [MainThread] - Relevant names are: set()
+2024-01-18 20:16:43,217 INFO dataflow_plan_builder.py:854 [MainThread] - After removing unnecessary nodes, there are 0 nodes available for joins
+2024-01-18 20:16:43,217 INFO dataflow_plan_builder.py:865 [MainThread] - Processing nodes took: 0.00s
+2024-01-18 20:16:43,226 INFO node_evaluator.py:384 [MainThread] - Looping over nodes that can be joined to get the required linkable specs
+2024-01-18 20:16:43,226 INFO node_evaluator.py:422 [MainThread] - Done evaluating possible joins
+2024-01-18 20:16:43,226 INFO dataflow_plan_builder.py:897 [MainThread] - Evaluation of MetricTimeDimensionTransformNode(node_id=sma_0) took 0.00s
+2024-01-18 20:16:43,232 INFO dataflow_plan_builder.py:912 [MainThread] - Found candidate with node ID 'sma_0' with 0 joins required.
+2024-01-18 20:16:43,233 INFO dataflow_plan_builder.py:919 [MainThread] - Not evaluating other nodes since we found one that doesn't require joins
+2024-01-18 20:16:43,233 INFO dataflow_plan_builder.py:922 [MainThread] - Found 1 candidate source nodes.
+2024-01-18 20:16:43,238 INFO dataflow_plan_builder.py:930 [MainThread] - Lowest cost plan is:
+node:
+    <MetricTimeDimensionTransformNode>
+        <!-- description = Metric Time Dimension 'create_at' -->
+        <!-- node_id = sma_0 -->
+        <!-- aggregation_time_dimension = create_at -->
+        <ReadSqlSourceNode>
+            <!-- description =                                                                                   -->
+            <!--   Read From SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+            <!-- node_id = rss_0 -->
+            <!-- data_set =                                                                            -->
+            <!--   SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+        </ReadSqlSourceNode>
+    </MetricTimeDimensionTransformNode>
+evaluation:
+    {'class': 'LinkableInstanceSatisfiabilityEvaluation',
+     'local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'metric_time',
+                               'entity_links': (),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'joinable_linkable_specs': (),
+     'join_recipes': (),
+     'unjoinable_linkable_specs': ()}
+joins:
+    0
+2024-01-18 20:16:43,239 INFO dataflow_plan_builder.py:1264 [MainThread] - With 1 source nodes, finding a recipe took 0.02s
+2024-01-18 20:16:43,239 INFO dataflow_plan_builder.py:1269 [MainThread] - Using recipe:
+measure_recipe:
+    {'class': 'DataflowRecipe',
+     'source_node': MetricTimeDimensionTransformNode(node_id=sma_0),
+     'required_local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                                        'element_name': 'metric_time',
+                                        'entity_links': (),
+                                        'time_granularity': TimeGranularity.DAY,
+                                        'date_part': None,
+                                        'aggregation_state': None},),
+     'join_linkable_instances_recipes': ()}
+2024-01-18 20:16:43,240 INFO dataflow_plan_builder.py:232 [MainThread] - Applying SourceScanOptimizer
+2024-01-18 20:16:43,288 INFO runtime.py:37 [MainThread] - Finished DataflowPlanBuilder._build_plan() in 0.1s
+2024-01-18 20:16:43,288 INFO dataflow_to_execution.py:93 [MainThread] - Generating SQL query plan from wrd_1 -> cm_1
+2024-01-18 20:16:43,290 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlColumnPrunerOptimizer
+2024-01-18 20:16:43,290 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlRewritingSubQueryReducer
+2024-01-18 20:16:43,290 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlTableAliasSimplifier
+2024-01-18 20:16:43,315 INFO metricflow_engine.py:384 [MainThread] - Sequentially running tasks in:
+<ExecutionPlan>
+    <SelectSqlQueryToDataFrameTask>
+        <!-- description = Run a query and write the results to a data frame -->
+        <!-- node_id = rsq_0 -->
+        <!-- sql_query =                                                                         -->
+        <!--   -- Read Elements From Semantic Model 'purchase_items'                             -->
+        <!--   -- Metric Time Dimension 'create_at'                                              -->
+        <!--   -- Pass Only Elements:                                                            -->
+        <!--   --   ['purchase_total', 'metric_time__day']                                       -->
+        <!--   -- Aggregate Measures                                                             -->
+        <!--   -- Compute Metrics via Expressions                                                -->
+        <!--   SELECT                                                                            -->
+        <!--     DATE_TRUNC('day', create_at) AS metric_time__day                                -->
+        <!--     , SUM(purchase_amount_usd) AS purchase_total_metrics                            -->
+        <!--   FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0  -->
+        <!--   GROUP BY                                                                          -->
+        <!--     DATE_TRUNC('day', create_at)                                                    -->
+    </SelectSqlQueryToDataFrameTask>
+</ExecutionPlan>
+2024-01-18 20:16:43,315 INFO executor.py:61 [MainThread] - Started task ID: rsq_0
+2024-01-18 20:16:43,315 INFO adapter_backed_client.py:152 [MainThread] - Running query:
+
+  -- Read Elements From Semantic Model 'purchase_items'
+  -- Metric Time Dimension 'create_at'
+  -- Pass Only Elements:
+  --   ['purchase_total', 'metric_time__day']
+  -- Aggregate Measures
+  -- Compute Metrics via Expressions
+  SELECT
+    DATE_TRUNC('day', create_at) AS metric_time__day
+    , SUM(purchase_amount_usd) AS purchase_total_metrics
+  FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0
+  GROUP BY
+    DATE_TRUNC('day', create_at)
+  -- MF_REQUEST_METADATA: {"tag_dict": {"MF_REQUEST_ID": "mf_rid__s2f3173r"}}
+2024-01-18 20:16:47,877 INFO adapter_backed_client.py:156 [MainThread] - Query returned from dbt Adapter with response SELECT 12
+2024-01-18 20:16:48,337 INFO adapter_backed_client.py:161 [MainThread] - Finished running the query in 5.02s with 12 row(s) returned
+2024-01-18 20:16:48,337 INFO executor.py:71 [MainThread] - Finished task ID: rsq_0 successfully in 5.02s
+2024-01-18 20:16:48,337 INFO metricflow_engine.py:386 [MainThread] - Finished running tasks in execution plan
+2024-01-18 20:16:48,337 INFO metricflow_engine.py:395 [MainThread] - Finished query request: MetricFlowRequestId(mf_rid='04v00b8h')
+2024-01-18 20:16:48,338 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 20, 16, 48, 337938),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_avx8urft',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'query',
+                              'runtime': 5.15813136100769,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 20:16:48,411 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 20, 16, 48, 411172),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_r0e8o5td',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'query',
+                              'runtime': 5.2366414070129395,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:25,314 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 33, 25, 314170),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_bez2kh5z',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:29,830 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 33, 29, 830128),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_bez2kh5z',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 4.515933275222778,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:29,831 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 33, 29, 831059),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_8tk9s3fo',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'list'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:29,831 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 33, 29, 831298),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_8tk9s3fo',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'list',
+                              'runtime': 0.00024008750915527344,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:29,831 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 33, 29, 831797),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_m8c04c1w',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'metrics'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:29,836 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 21:33:29,836 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 21:33:29,837 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 21:33:29,837 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 33, 29, 837631),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_m6zodm8c',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'list_metrics'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:29,840 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 33, 29, 838283),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_m6zodm8c',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'list_metrics',
+                              'runtime': 0.0006535053253173828,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:33:29,917 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 33, 29, 916840),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_m8c04c1w',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'metrics',
+                              'runtime': 0.08503866195678711,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:34:21,199 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 34, 21, 198656),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_v3a494h7',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:34:21,200 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 34, 21, 200043),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_v3a494h7',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0014057159423828125,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:34:21,201 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 34, 21, 200888),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_nwhtbndb',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:34:21,204 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 21:34:21,204 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 21:34:21,205 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 21:34:21,206 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 34, 21, 206296),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_17ox5w8v',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:34:21,207 INFO metricflow_engine.py:375 [MainThread] - Starting query request:
+  {'class': 'MetricFlowQueryRequest',
+   'request_id': {'class': 'MetricFlowRequestId', 'mf_rid': '7z3limbz'},
+   'saved_query_name': None,
+   'metric_names': ['purchase_total_metrics'],
+   'metrics': None,
+   'group_by_names': ['purchase_id__create_at'],
+   'group_by': None,
+   'limit': None,
+   'time_constraint_start': None,
+   'time_constraint_end': None,
+   'where_constraint': None,
+   'order_by_names': None,
+   'order_by': None,
+   'min_max_only': False,
+   'output_table': None,
+   'sql_optimization_level': <SqlQueryOptimizationLevel.O4: 'O4'>,
+   'query_type': <MetricFlowQueryType.METRIC: 'metric'>}
+2024-01-18 21:34:21,207 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryParser._parse_and_validate_query()
+2024-01-18 21:34:21,209 INFO query_parser.py:426 [MainThread] - Converted group-by-item input:
+  Input: 'purchase_id__create_at'
+  Resolver Input: ResolverInputForGroupByItem(
+    input_obj='purchase_id__create_at',
+    input_obj_naming_scheme=DunderNamingScheme(id()=0x7fd1496e3670),
+    spec_pattern=EntityLinkPattern(
+      parameter_set=EntityLinkPatternParameterSet(
+        fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+        element_name='create_at',
+        entity_links=(EntityReference(element_name='purchase_id'),),
+      ),
+    ),
+  )
+2024-01-18 21:34:21,212 INFO query_parser.py:478 [MainThread] - Resolver input for query is:
+  ResolverInputForQuery(
+    metric_inputs=(
+      ResolverInputForMetric(
+        input_obj='purchase_total_metrics',
+        naming_scheme=MetricNamingScheme(id()=0x7fd1496e3610),
+        spec_pattern=MetricSpecPattern(
+          metric_reference=MetricReference(element_name='purchase_total_metrics'),
+        ),
+      ),
+    ),
+    group_by_item_inputs=(
+      ResolverInputForGroupByItem(
+        input_obj='purchase_id__create_at',
+        input_obj_naming_scheme=DunderNamingScheme(id()=0x7fd1496e3670),
+        spec_pattern=EntityLinkPattern(
+          parameter_set=EntityLinkPatternParameterSet(
+            fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+            element_name='create_at',
+            entity_links=(EntityReference(element_name='purchase_id'),),
+          ),
+        ),
+      ),
+    ),
+    filter_input=ResolverInputForQueryLevelWhereFilterIntersection(
+      where_filter_intersection=PydanticWhereFilterIntersection(),
+    ),
+    limit_input=ResolverInputForLimit(),
+    min_max_only=ResolverInputForMinMaxOnly(min_max_only=False),
+  )
+2024-01-18 21:34:21,212 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryResolver._resolve_query()
+2024-01-18 21:34:21,227 INFO query_resolver.py:194 [MainThread] - Resolution DAG is:
+<GroupByItemResolutionDag>
+    <QueryGroupByItemResolutionNode>
+        <!-- description = Output the group-by items for query. -->
+        <!-- node_id = qr_1 -->
+        <!-- metrics_in_query = ['purchase_total_metrics'] -->
+        <MetricGroupByItemResolutionNode>
+            <!-- description = Output group-by-items available for this metric. -->
+            <!-- node_id = mtr_0 -->
+            <!-- metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            <MeasureGroupByItemSourceNode>
+                <!-- description = Output group-by-items available for this measure. -->
+                <!-- node_id = msr_0 -->
+                <!-- measure_reference = MeasureReference(element_name='purchase_total') -->
+                <!-- child_metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            </MeasureGroupByItemSourceNode>
+        </MetricGroupByItemResolutionNode>
+    </QueryGroupByItemResolutionNode>
+</GroupByItemResolutionDag>
+2024-01-18 21:34:21,227 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 21:34:21,232 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 21:34:21,239 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 21:34:21,241 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 21:34:21,243 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 21:34:21,244 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 21:34:21,245 INFO group_by_item_resolver.py:95 [MainThread] - Spec pattern:
+  EntityLinkPattern(
+    parameter_set=EntityLinkPatternParameterSet(
+      fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+      element_name='create_at',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+    ),
+  )
+was resolved to:
+  (
+    TimeDimensionSpec(
+      element_name='create_at',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+      time_granularity=DAY,
+    ),
+  )
+2024-01-18 21:34:21,245 INFO runtime.py:31 [MainThread] - Starting WhereFilterSpecResolver._resolve_lookup()
+2024-01-18 21:34:21,245 INFO runtime.py:37 [MainThread] - Finished WhereFilterSpecResolver._resolve_lookup() in 0.0s
+2024-01-18 21:34:21,245 INFO query_resolver.py:450 [MainThread] - Group-by-items were resolved to:
+(
+  TimeDimensionSpec(
+    element_name='create_at',
+    entity_links=(EntityReference(element_name='purchase_id'),),
+    time_granularity=DAY,
+  ),
+)
+2024-01-18 21:34:21,246 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryResolver._resolve_query() in 0.0s
+2024-01-18 21:34:21,247 INFO query_parser.py:482 [MainThread] - Query resolution is:
+  MetricFlowQueryResolution(
+    query_spec=MetricFlowQuerySpec(
+      metric_specs=(MetricSpec(element_name='purchase_total_metrics'),),
+      time_dimension_specs=(
+        TimeDimensionSpec(
+          element_name='create_at',
+          entity_links=(EntityReference(element_name='purchase_id'),),
+          time_granularity=DAY,
+        ),
+      ),
+      filter_intersection=PydanticWhereFilterIntersection(),
+      filter_spec_resolution_lookup=FilterSpecResolutionLookUp(),
+      min_max_only=False,
+    ),
+    resolution_dag=<metricflow.query.group_by_item.resolution_dag.dag.GroupByItemResolutionDag object at 0x7fd149695640>,
+    filter_spec_lookup=FilterSpecResolutionLookUp(),
+  )
+2024-01-18 21:34:21,247 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryParser._parse_and_validate_query() in 0.0s
+2024-01-18 21:34:21,247 INFO metricflow_engine.py:442 [MainThread] - Query spec is:
+{'class': 'MetricFlowQuerySpec',
+ 'metric_specs': ({'class': 'MetricSpec',
+                   'element_name': 'purchase_total_metrics',
+                   'filter_specs': (),
+                   'alias': None,
+                   'offset_window': None,
+                   'offset_to_grain': None},),
+ 'dimension_specs': (),
+ 'entity_specs': (),
+ 'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                           'element_name': 'create_at',
+                           'entity_links': ({'class': 'EntityReference',
+                                             'element_name': 'purchase_id'},),
+                           'time_granularity': TimeGranularity.DAY,
+                           'date_part': None,
+                           'aggregation_state': None},),
+ 'order_by_specs': (),
+ 'time_range_constraint': None,
+ 'limit': None,
+ 'filter_intersection': {'class': 'PydanticWhereFilterIntersection',
+                         'where_filters': []},
+ 'filter_spec_resolution_lookup': {'class': 'FilterSpecResolutionLookUp',
+                                   'spec_resolutions': (),
+                                   'non_parsable_resolutions': ()},
+ 'min_max_only': False}
+2024-01-18 21:34:21,247 INFO runtime.py:31 [MainThread] - Starting DataflowPlanBuilder._build_plan()
+2024-01-18 21:34:21,247 INFO dataflow_plan_builder.py:585 [MainThread] - Generating compute metrics node for MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None)
+2024-01-18 21:34:21,248 INFO dataflow_plan_builder.py:427 [MainThread] - For MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None), needed measure is:
+metric_input_measure_spec:
+    {'class': 'MetricInputMeasureSpec',
+     'measure_spec': {'class': 'MeasureSpec',
+                      'element_name': 'purchase_total',
+                      'non_additive_dimension_spec': None,
+                      'fill_nulls_with': None},
+     'fill_nulls_with': None,
+     'offset_window': None,
+     'offset_to_grain': None,
+     'culmination_description': None,
+     'filter_specs': (),
+     'alias': None,
+     'before_aggregation_time_spine_join_description': None,
+     'after_aggregation_time_spine_join_description': None}
+2024-01-18 21:34:21,248 INFO dataflow_plan_builder.py:1167 [MainThread] - Building aggregated measure: MeasureSpec(element_name='purchase_total', non_additive_dimension_spec=None, fill_nulls_with=None) with input measure filters:
+()
+and  filters:
+()
+2024-01-18 21:34:21,248 INFO dataflow_plan_builder.py:1252 [MainThread] - Looking for a recipe to get:
+measure_specs:
+    [{'class': 'MeasureSpec',
+      'element_name': 'purchase_total',
+      'non_additive_dimension_spec': None,
+      'fill_nulls_with': None}]
+required_linkable_set:
+    {'class': 'LinkableSpecSet',
+     'dimension_specs': (),
+     'time_dimension_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'create_at',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'entity_specs': ()}
+2024-01-18 21:34:21,249 INFO dataflow_plan_builder.py:833 [MainThread] - There are 1 potential source nodes
+2024-01-18 21:34:21,249 INFO dataflow_plan_builder.py:835 [MainThread] - Starting search with 1 source nodes
+2024-01-18 21:34:21,249 INFO node_processor.py:330 [MainThread] - Relevant names are: {'purchase_id', 'create_at'}
+2024-01-18 21:34:21,250 INFO dataflow_plan_builder.py:854 [MainThread] - After removing unnecessary nodes, there are 1 nodes available for joins
+2024-01-18 21:34:21,250 INFO dataflow_plan_builder.py:865 [MainThread] - Processing nodes took: 0.00s
+2024-01-18 21:34:21,260 INFO node_evaluator.py:384 [MainThread] - Looping over nodes that can be joined to get the required linkable specs
+2024-01-18 21:34:21,260 INFO node_evaluator.py:422 [MainThread] - Done evaluating possible joins
+2024-01-18 21:34:21,260 INFO dataflow_plan_builder.py:897 [MainThread] - Evaluation of MetricTimeDimensionTransformNode(node_id=sma_0) took 0.00s
+2024-01-18 21:34:21,266 INFO dataflow_plan_builder.py:912 [MainThread] - Found candidate with node ID 'sma_0' with 0 joins required.
+2024-01-18 21:34:21,266 INFO dataflow_plan_builder.py:919 [MainThread] - Not evaluating other nodes since we found one that doesn't require joins
+2024-01-18 21:34:21,266 INFO dataflow_plan_builder.py:922 [MainThread] - Found 1 candidate source nodes.
+2024-01-18 21:34:21,273 INFO dataflow_plan_builder.py:930 [MainThread] - Lowest cost plan is:
+node:
+    <MetricTimeDimensionTransformNode>
+        <!-- description = Metric Time Dimension 'create_at' -->
+        <!-- node_id = sma_0 -->
+        <!-- aggregation_time_dimension = create_at -->
+        <ReadSqlSourceNode>
+            <!-- description =                                                                                   -->
+            <!--   Read From SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+            <!-- node_id = rss_0 -->
+            <!-- data_set =                                                                            -->
+            <!--   SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+        </ReadSqlSourceNode>
+    </MetricTimeDimensionTransformNode>
+evaluation:
+    {'class': 'LinkableInstanceSatisfiabilityEvaluation',
+     'local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                               'element_name': 'create_at',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},),
+                               'time_granularity': TimeGranularity.DAY,
+                               'date_part': None,
+                               'aggregation_state': None},),
+     'joinable_linkable_specs': (),
+     'join_recipes': (),
+     'unjoinable_linkable_specs': ()}
+joins:
+    0
+2024-01-18 21:34:21,273 INFO dataflow_plan_builder.py:1264 [MainThread] - With 1 source nodes, finding a recipe took 0.03s
+2024-01-18 21:34:21,274 INFO dataflow_plan_builder.py:1269 [MainThread] - Using recipe:
+measure_recipe:
+    {'class': 'DataflowRecipe',
+     'source_node': MetricTimeDimensionTransformNode(node_id=sma_0),
+     'required_local_linkable_specs': ({'class': 'TimeDimensionSpec',
+                                        'element_name': 'create_at',
+                                        'entity_links': ({'class': 'EntityReference',
+                                                          'element_name': 'purchase_id'},),
+                                        'time_granularity': TimeGranularity.DAY,
+                                        'date_part': None,
+                                        'aggregation_state': None},),
+     'join_linkable_instances_recipes': ()}
+2024-01-18 21:34:21,274 INFO dataflow_plan_builder.py:232 [MainThread] - Applying SourceScanOptimizer
+2024-01-18 21:34:21,329 INFO runtime.py:37 [MainThread] - Finished DataflowPlanBuilder._build_plan() in 0.1s
+2024-01-18 21:34:21,329 INFO dataflow_to_execution.py:93 [MainThread] - Generating SQL query plan from wrd_1 -> cm_1
+2024-01-18 21:34:21,331 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlColumnPrunerOptimizer
+2024-01-18 21:34:21,331 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlRewritingSubQueryReducer
+2024-01-18 21:34:21,332 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlTableAliasSimplifier
+2024-01-18 21:34:21,358 INFO metricflow_engine.py:384 [MainThread] - Sequentially running tasks in:
+<ExecutionPlan>
+    <SelectSqlQueryToDataFrameTask>
+        <!-- description = Run a query and write the results to a data frame -->
+        <!-- node_id = rsq_0 -->
+        <!-- sql_query =                                                                         -->
+        <!--   -- Read Elements From Semantic Model 'purchase_items'                             -->
+        <!--   -- Metric Time Dimension 'create_at'                                              -->
+        <!--   -- Pass Only Elements:                                                            -->
+        <!--   --   ['purchase_total', 'purchase_id__create_at__day']                            -->
+        <!--   -- Aggregate Measures                                                             -->
+        <!--   -- Compute Metrics via Expressions                                                -->
+        <!--   SELECT                                                                            -->
+        <!--     DATE_TRUNC('day', create_at) AS purchase_id__create_at__day                     -->
+        <!--     , SUM(purchase_amount_usd) AS purchase_total_metrics                            -->
+        <!--   FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0  -->
+        <!--   GROUP BY                                                                          -->
+        <!--     DATE_TRUNC('day', create_at)                                                    -->
+    </SelectSqlQueryToDataFrameTask>
+</ExecutionPlan>
+2024-01-18 21:34:21,358 INFO executor.py:61 [MainThread] - Started task ID: rsq_0
+2024-01-18 21:34:21,358 INFO adapter_backed_client.py:152 [MainThread] - Running query:
+
+  -- Read Elements From Semantic Model 'purchase_items'
+  -- Metric Time Dimension 'create_at'
+  -- Pass Only Elements:
+  --   ['purchase_total', 'purchase_id__create_at__day']
+  -- Aggregate Measures
+  -- Compute Metrics via Expressions
+  SELECT
+    DATE_TRUNC('day', create_at) AS purchase_id__create_at__day
+    , SUM(purchase_amount_usd) AS purchase_total_metrics
+  FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0
+  GROUP BY
+    DATE_TRUNC('day', create_at)
+  -- MF_REQUEST_METADATA: {"tag_dict": {"MF_REQUEST_ID": "mf_rid__99rf22dv"}}
+2024-01-18 21:34:23,789 INFO adapter_backed_client.py:156 [MainThread] - Query returned from dbt Adapter with response SELECT 12
+2024-01-18 21:34:24,022 INFO adapter_backed_client.py:161 [MainThread] - Finished running the query in 2.66s with 12 row(s) returned
+2024-01-18 21:34:24,022 INFO executor.py:71 [MainThread] - Finished task ID: rsq_0 successfully in 2.66s
+2024-01-18 21:34:24,022 INFO metricflow_engine.py:386 [MainThread] - Finished running tasks in execution plan
+2024-01-18 21:34:24,023 INFO metricflow_engine.py:395 [MainThread] - Finished query request: MetricFlowRequestId(mf_rid='7z3limbz')
+2024-01-18 21:34:24,023 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 34, 24, 23087),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_17ox5w8v',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'query',
+                              'runtime': 2.8168013095855713,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:34:24,105 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 34, 24, 104994),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_nwhtbndb',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'query',
+                              'runtime': 2.904100179672241,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:35:08,689 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 35, 8, 688562),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_uzdosr2c',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'cli'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:35:08,690 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 35, 8, 690121),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_uzdosr2c',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'cli',
+                              'runtime': 0.0015726089477539062,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:35:08,691 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 35, 8, 691073),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_rtdu2afl',
+                                'module_name': 'metricflow.cli.main',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:35:08,696 INFO linkable_spec_resolver.py:529 [MainThread] - Building valid group-by-item indexes took: 0.00s
+2024-01-18 21:35:08,696 INFO adapter_backed_client.py:115 [MainThread] - Initialized AdapterBackedSqlClient with dbt adapter type `postgres`
+2024-01-18 21:35:08,698 INFO metricflow_engine.py:347 [MainThread] - Created source dataset from semantic model 'purchase_items'
+2024-01-18 21:35:08,698 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': ({'event_name': 'FUNCTION_START',
+                                'event_schema': 'v1.0',
+                                'event_time': datetime.datetime(2024, 1, 18, 21, 35, 8, 698598),
+                                'level_name': 'USAGE',
+                                'invocation_id': 'call_tklmoz6r',
+                                'module_name': 'metricflow.engine.metricflow_engine',
+                                'function_name': 'query'},),
+     'function_end_events': (),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:35:08,699 INFO metricflow_engine.py:375 [MainThread] - Starting query request:
+  {'class': 'MetricFlowQueryRequest',
+   'request_id': {'class': 'MetricFlowRequestId', 'mf_rid': '6vnxm408'},
+   'saved_query_name': None,
+   'metric_names': ['purchase_total_metrics'],
+   'metrics': None,
+   'group_by_names': ['purchase_id__sku'],
+   'group_by': None,
+   'limit': None,
+   'time_constraint_start': None,
+   'time_constraint_end': None,
+   'where_constraint': None,
+   'order_by_names': None,
+   'order_by': None,
+   'min_max_only': False,
+   'output_table': None,
+   'sql_optimization_level': <SqlQueryOptimizationLevel.O4: 'O4'>,
+   'query_type': <MetricFlowQueryType.METRIC: 'metric'>}
+2024-01-18 21:35:08,699 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryParser._parse_and_validate_query()
+2024-01-18 21:35:08,700 INFO query_parser.py:426 [MainThread] - Converted group-by-item input:
+  Input: 'purchase_id__sku'
+  Resolver Input: ResolverInputForGroupByItem(
+    input_obj='purchase_id__sku',
+    input_obj_naming_scheme=DunderNamingScheme(id()=0x7f2ad3e256a0),
+    spec_pattern=EntityLinkPattern(
+      parameter_set=EntityLinkPatternParameterSet(
+        fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+        element_name='sku',
+        entity_links=(EntityReference(element_name='purchase_id'),),
+      ),
+    ),
+  )
+2024-01-18 21:35:08,702 INFO query_parser.py:478 [MainThread] - Resolver input for query is:
+  ResolverInputForQuery(
+    metric_inputs=(
+      ResolverInputForMetric(
+        input_obj='purchase_total_metrics',
+        naming_scheme=MetricNamingScheme(id()=0x7f2ad3e25640),
+        spec_pattern=MetricSpecPattern(
+          metric_reference=MetricReference(element_name='purchase_total_metrics'),
+        ),
+      ),
+    ),
+    group_by_item_inputs=(
+      ResolverInputForGroupByItem(
+        input_obj='purchase_id__sku',
+        input_obj_naming_scheme=DunderNamingScheme(id()=0x7f2ad3e256a0),
+        spec_pattern=EntityLinkPattern(
+          parameter_set=EntityLinkPatternParameterSet(
+            fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+            element_name='sku',
+            entity_links=(EntityReference(element_name='purchase_id'),),
+          ),
+        ),
+      ),
+    ),
+    filter_input=ResolverInputForQueryLevelWhereFilterIntersection(
+      where_filter_intersection=PydanticWhereFilterIntersection(),
+    ),
+    limit_input=ResolverInputForLimit(),
+    min_max_only=ResolverInputForMinMaxOnly(min_max_only=False),
+  )
+2024-01-18 21:35:08,702 INFO runtime.py:31 [MainThread] - Starting MetricFlowQueryResolver._resolve_query()
+2024-01-18 21:35:08,713 INFO query_resolver.py:194 [MainThread] - Resolution DAG is:
+<GroupByItemResolutionDag>
+    <QueryGroupByItemResolutionNode>
+        <!-- description = Output the group-by items for query. -->
+        <!-- node_id = qr_1 -->
+        <!-- metrics_in_query = ['purchase_total_metrics'] -->
+        <MetricGroupByItemResolutionNode>
+            <!-- description = Output group-by-items available for this metric. -->
+            <!-- node_id = mtr_0 -->
+            <!-- metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            <MeasureGroupByItemSourceNode>
+                <!-- description = Output group-by-items available for this measure. -->
+                <!-- node_id = msr_0 -->
+                <!-- measure_reference = MeasureReference(element_name='purchase_total') -->
+                <!-- child_metric_reference = MetricReference(element_name='purchase_total_metrics') -->
+            </MeasureGroupByItemSourceNode>
+        </MetricGroupByItemResolutionNode>
+    </QueryGroupByItemResolutionNode>
+</GroupByItemResolutionDag>
+2024-01-18 21:35:08,713 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 21:35:08,717 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 21:35:08,722 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 21:35:08,725 INFO push_down_visitor.py:153 [MainThread] - Handling Measure('purchase_total')
+2024-01-18 21:35:08,726 INFO push_down_visitor.py:303 [MainThread] - Handling Metric('purchase_total_metrics')
+2024-01-18 21:35:08,726 INFO push_down_visitor.py:386 [MainThread] - Handling Query(['purchase_total_metrics'])
+2024-01-18 21:35:08,727 INFO group_by_item_resolver.py:95 [MainThread] - Spec pattern:
+  EntityLinkPattern(
+    parameter_set=EntityLinkPatternParameterSet(
+      fields_to_compare=(DATE_PART, ELEMENT_NAME, ENTITY_LINKS),
+      element_name='sku',
+      entity_links=(EntityReference(element_name='purchase_id'),),
+    ),
+  )
+was resolved to:
+  (DimensionSpec(element_name='sku', entity_links=(EntityReference(element_name='purchase_id'),)),)
+2024-01-18 21:35:08,727 INFO runtime.py:31 [MainThread] - Starting WhereFilterSpecResolver._resolve_lookup()
+2024-01-18 21:35:08,727 INFO runtime.py:37 [MainThread] - Finished WhereFilterSpecResolver._resolve_lookup() in 0.0s
+2024-01-18 21:35:08,727 INFO query_resolver.py:450 [MainThread] - Group-by-items were resolved to:
+(DimensionSpec(element_name='sku', entity_links=(EntityReference(element_name='purchase_id'),)),)
+2024-01-18 21:35:08,727 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryResolver._resolve_query() in 0.0s
+2024-01-18 21:35:08,728 INFO query_parser.py:482 [MainThread] - Query resolution is:
+  MetricFlowQueryResolution(
+    query_spec=MetricFlowQuerySpec(
+      metric_specs=(MetricSpec(element_name='purchase_total_metrics'),),
+      dimension_specs=(
+        DimensionSpec(
+          element_name='sku',
+          entity_links=(EntityReference(element_name='purchase_id'),),
+        ),
+      ),
+      filter_intersection=PydanticWhereFilterIntersection(),
+      filter_spec_resolution_lookup=FilterSpecResolutionLookUp(),
+      min_max_only=False,
+    ),
+    resolution_dag=<metricflow.query.group_by_item.resolution_dag.dag.GroupByItemResolutionDag object at 0x7f2ad3de5670>,
+    filter_spec_lookup=FilterSpecResolutionLookUp(),
+  )
+2024-01-18 21:35:08,728 INFO runtime.py:37 [MainThread] - Finished MetricFlowQueryParser._parse_and_validate_query() in 0.0s
+2024-01-18 21:35:08,729 INFO metricflow_engine.py:442 [MainThread] - Query spec is:
+{'class': 'MetricFlowQuerySpec',
+ 'metric_specs': ({'class': 'MetricSpec',
+                   'element_name': 'purchase_total_metrics',
+                   'filter_specs': (),
+                   'alias': None,
+                   'offset_window': None,
+                   'offset_to_grain': None},),
+ 'dimension_specs': ({'class': 'DimensionSpec',
+                      'element_name': 'sku',
+                      'entity_links': ({'class': 'EntityReference',
+                                        'element_name': 'purchase_id'},)},),
+ 'entity_specs': (),
+ 'time_dimension_specs': (),
+ 'order_by_specs': (),
+ 'time_range_constraint': None,
+ 'limit': None,
+ 'filter_intersection': {'class': 'PydanticWhereFilterIntersection',
+                         'where_filters': []},
+ 'filter_spec_resolution_lookup': {'class': 'FilterSpecResolutionLookUp',
+                                   'spec_resolutions': (),
+                                   'non_parsable_resolutions': ()},
+ 'min_max_only': False}
+2024-01-18 21:35:08,729 INFO runtime.py:31 [MainThread] - Starting DataflowPlanBuilder._build_plan()
+2024-01-18 21:35:08,729 INFO dataflow_plan_builder.py:585 [MainThread] - Generating compute metrics node for MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None)
+2024-01-18 21:35:08,729 INFO dataflow_plan_builder.py:427 [MainThread] - For MetricSpec(element_name='purchase_total_metrics', filter_specs=(), alias=None, offset_window=None, offset_to_grain=None), needed measure is:
+metric_input_measure_spec:
+    {'class': 'MetricInputMeasureSpec',
+     'measure_spec': {'class': 'MeasureSpec',
+                      'element_name': 'purchase_total',
+                      'non_additive_dimension_spec': None,
+                      'fill_nulls_with': None},
+     'fill_nulls_with': None,
+     'offset_window': None,
+     'offset_to_grain': None,
+     'culmination_description': None,
+     'filter_specs': (),
+     'alias': None,
+     'before_aggregation_time_spine_join_description': None,
+     'after_aggregation_time_spine_join_description': None}
+2024-01-18 21:35:08,729 INFO dataflow_plan_builder.py:1167 [MainThread] - Building aggregated measure: MeasureSpec(element_name='purchase_total', non_additive_dimension_spec=None, fill_nulls_with=None) with input measure filters:
+()
+and  filters:
+()
+2024-01-18 21:35:08,730 INFO dataflow_plan_builder.py:1252 [MainThread] - Looking for a recipe to get:
+measure_specs:
+    [{'class': 'MeasureSpec',
+      'element_name': 'purchase_total',
+      'non_additive_dimension_spec': None,
+      'fill_nulls_with': None}]
+required_linkable_set:
+    {'class': 'LinkableSpecSet',
+     'dimension_specs': ({'class': 'DimensionSpec',
+                          'element_name': 'sku',
+                          'entity_links': ({'class': 'EntityReference',
+                                            'element_name': 'purchase_id'},)},),
+     'time_dimension_specs': (),
+     'entity_specs': ()}
+2024-01-18 21:35:08,731 INFO dataflow_plan_builder.py:833 [MainThread] - There are 1 potential source nodes
+2024-01-18 21:35:08,731 INFO dataflow_plan_builder.py:835 [MainThread] - Starting search with 1 source nodes
+2024-01-18 21:35:08,731 INFO node_processor.py:330 [MainThread] - Relevant names are: {'sku', 'purchase_id'}
+2024-01-18 21:35:08,731 INFO dataflow_plan_builder.py:854 [MainThread] - After removing unnecessary nodes, there are 1 nodes available for joins
+2024-01-18 21:35:08,731 INFO dataflow_plan_builder.py:865 [MainThread] - Processing nodes took: 0.00s
+2024-01-18 21:35:08,740 INFO node_evaluator.py:384 [MainThread] - Looping over nodes that can be joined to get the required linkable specs
+2024-01-18 21:35:08,740 INFO node_evaluator.py:422 [MainThread] - Done evaluating possible joins
+2024-01-18 21:35:08,740 INFO dataflow_plan_builder.py:897 [MainThread] - Evaluation of MetricTimeDimensionTransformNode(node_id=sma_0) took 0.00s
+2024-01-18 21:35:08,747 INFO dataflow_plan_builder.py:912 [MainThread] - Found candidate with node ID 'sma_0' with 0 joins required.
+2024-01-18 21:35:08,747 INFO dataflow_plan_builder.py:919 [MainThread] - Not evaluating other nodes since we found one that doesn't require joins
+2024-01-18 21:35:08,747 INFO dataflow_plan_builder.py:922 [MainThread] - Found 1 candidate source nodes.
+2024-01-18 21:35:08,753 INFO dataflow_plan_builder.py:930 [MainThread] - Lowest cost plan is:
+node:
+    <MetricTimeDimensionTransformNode>
+        <!-- description = Metric Time Dimension 'create_at' -->
+        <!-- node_id = sma_0 -->
+        <!-- aggregation_time_dimension = create_at -->
+        <ReadSqlSourceNode>
+            <!-- description =                                                                                   -->
+            <!--   Read From SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+            <!-- node_id = rss_0 -->
+            <!-- data_set =                                                                            -->
+            <!--   SemanticModelDataSet(SemanticModelReference(semantic_model_name='purchase_items'))  -->
+        </ReadSqlSourceNode>
+    </MetricTimeDimensionTransformNode>
+evaluation:
+    {'class': 'LinkableInstanceSatisfiabilityEvaluation',
+     'local_linkable_specs': ({'class': 'DimensionSpec',
+                               'element_name': 'sku',
+                               'entity_links': ({'class': 'EntityReference',
+                                                 'element_name': 'purchase_id'},)},),
+     'joinable_linkable_specs': (),
+     'join_recipes': (),
+     'unjoinable_linkable_specs': ()}
+joins:
+    0
+2024-01-18 21:35:08,753 INFO dataflow_plan_builder.py:1264 [MainThread] - With 1 source nodes, finding a recipe took 0.02s
+2024-01-18 21:35:08,753 INFO dataflow_plan_builder.py:1269 [MainThread] - Using recipe:
+measure_recipe:
+    {'class': 'DataflowRecipe',
+     'source_node': MetricTimeDimensionTransformNode(node_id=sma_0),
+     'required_local_linkable_specs': ({'class': 'DimensionSpec',
+                                        'element_name': 'sku',
+                                        'entity_links': ({'class': 'EntityReference',
+                                                          'element_name': 'purchase_id'},)},),
+     'join_linkable_instances_recipes': ()}
+2024-01-18 21:35:08,754 INFO dataflow_plan_builder.py:232 [MainThread] - Applying SourceScanOptimizer
+2024-01-18 21:35:08,801 INFO runtime.py:37 [MainThread] - Finished DataflowPlanBuilder._build_plan() in 0.1s
+2024-01-18 21:35:08,801 INFO dataflow_to_execution.py:93 [MainThread] - Generating SQL query plan from wrd_1 -> cm_1
+2024-01-18 21:35:08,803 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlColumnPrunerOptimizer
+2024-01-18 21:35:08,803 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlRewritingSubQueryReducer
+2024-01-18 21:35:08,803 INFO dataflow_to_sql.py:1022 [MainThread] - Applying optimizer: SqlTableAliasSimplifier
+2024-01-18 21:35:08,829 INFO metricflow_engine.py:384 [MainThread] - Sequentially running tasks in:
+<ExecutionPlan>
+    <SelectSqlQueryToDataFrameTask>
+        <!-- description = Run a query and write the results to a data frame -->
+        <!-- node_id = rsq_0 -->
+        <!-- sql_query =                                                                         -->
+        <!--   -- Read Elements From Semantic Model 'purchase_items'                             -->
+        <!--   -- Metric Time Dimension 'create_at'                                              -->
+        <!--   -- Pass Only Elements:                                                            -->
+        <!--   --   ['purchase_total', 'purchase_id__sku']                                       -->
+        <!--   -- Aggregate Measures                                                             -->
+        <!--   -- Compute Metrics via Expressions                                                -->
+        <!--   SELECT                                                                            -->
+        <!--     sku AS purchase_id__sku                                                         -->
+        <!--     , SUM(purchase_amount_usd) AS purchase_total_metrics                            -->
+        <!--   FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0  -->
+        <!--   GROUP BY                                                                          -->
+        <!--     sku                                                                             -->
+    </SelectSqlQueryToDataFrameTask>
+</ExecutionPlan>
+2024-01-18 21:35:08,830 INFO executor.py:61 [MainThread] - Started task ID: rsq_0
+2024-01-18 21:35:08,830 INFO adapter_backed_client.py:152 [MainThread] - Running query:
+
+  -- Read Elements From Semantic Model 'purchase_items'
+  -- Metric Time Dimension 'create_at'
+  -- Pass Only Elements:
+  --   ['purchase_total', 'purchase_id__sku']
+  -- Aggregate Measures
+  -- Compute Metrics via Expressions
+  SELECT
+    sku AS purchase_id__sku
+    , SUM(purchase_amount_usd) AS purchase_total_metrics
+  FROM "postgres"."metrics_test_windingflow"."purchase_items" purchase_items_src_0
+  GROUP BY
+    sku
+  -- MF_REQUEST_METADATA: {"tag_dict": {"MF_REQUEST_ID": "mf_rid__24fs05zs"}}
+2024-01-18 21:35:11,288 INFO adapter_backed_client.py:156 [MainThread] - Query returned from dbt Adapter with response SELECT 3
+2024-01-18 21:35:11,522 INFO adapter_backed_client.py:161 [MainThread] - Finished running the query in 2.69s with 3 row(s) returned
+2024-01-18 21:35:11,522 INFO executor.py:71 [MainThread] - Finished task ID: rsq_0 successfully in 2.69s
+2024-01-18 21:35:11,522 INFO metricflow_engine.py:386 [MainThread] - Finished running tasks in execution plan
+2024-01-18 21:35:11,522 INFO metricflow_engine.py:395 [MainThread] - Finished query request: MetricFlowRequestId(mf_rid='6vnxm408')
+2024-01-18 21:35:11,523 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 35, 11, 522739),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_tklmoz6r',
+                              'module_name': 'metricflow.engine.metricflow_engine',
+                              'function_name': 'query',
+                              'runtime': 2.82414174079895,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
+2024-01-18 21:35:11,595 INFO python_log.py:20 [MainThread] - Logging telemetry payload:
+    {'client_id': 'e87adca0aef73609fc8d7d744cbf4b81a7f2f122cfdb34c4d646ade412559af8',
+     'function_start_events': (),
+     'function_end_events': ({'event_name': 'FUNCTION_END',
+                              'event_schema': 'v1.0',
+                              'event_time': datetime.datetime(2024, 1, 18, 21, 35, 11, 595157),
+                              'level_name': 'USAGE',
+                              'invocation_id': 'call_rtdu2afl',
+                              'module_name': 'metricflow.cli.main',
+                              'function_name': 'query',
+                              'runtime': 2.9040791988372803,
+                              'exception_trace': None},),
+     'payload_schema': 'v1.0'}
